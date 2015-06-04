@@ -23,7 +23,19 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/category', {
+      .when('/rakennelmat', {
+        templateUrl: 'views/category.html',
+        controller: 'CategoryCtrl'
+      })
+      .when('/akuankkapiirrokset', {
+        templateUrl: 'views/category.html',
+        controller: 'CategoryCtrl'
+      })
+      .when('/muut', {
+        templateUrl: 'views/category.html',
+        controller: 'CategoryCtrl'
+      })
+      .when('/cv', {
         templateUrl: 'views/category.html',
         controller: 'CategoryCtrl'
       })
