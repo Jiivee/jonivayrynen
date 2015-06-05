@@ -57,9 +57,9 @@ body {
           left: 0;
           bottom: 0;
           right: 0;
-          margin: 15px;
+          margin: 10px;
 
-          .small-image-vertical {
+          .small-image-horizontal {
             width: 100%;
             height: auto;
             position: absolute;
@@ -68,7 +68,7 @@ body {
             transform: translate(-50%, -50%);
           }
 
-          .small-image-horizontal {
+          .small-image-vertical {
             height: 100%;
             width: auto;
             position: absolute;

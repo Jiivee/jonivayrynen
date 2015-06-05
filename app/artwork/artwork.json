@@ -1,0 +1,90 @@
+{
+    "rakennelmat": {
+        "akupaa": {
+            "name": "Aku pää",
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/akupaa/akupaa1-small.JPG",
+                    "medium": "images/akupaa/akupaa1.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/akupaa/akupaa2-small.JPG",
+                    "medium": "images/akupaa/akupaa2.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/akupaa/akupaa3-small.JPG",
+                    "medium": "images/akupaa/akupaa3.JPG",
+                    "ratio": "horizontal",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/akupaa/akupaa4-small.JPG",
+                    "medium": "images/akupaa/akupaa4.JPG",
+                    "ratio": "horizontal",
+                    "caption": "text"
+                }
+            ]
+        },
+        "eiffel": {
+            "name": "Eiffel torni",
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/eiffel/eiffel1-small.JPG",
+                    "medium": "images/eiffel/eiffel1.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel2-small.JPG",
+                    "medium": "images/eiffel/eiffel2.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel3-small.JPG",
+                    "medium": "images/eiffel/eiffel3.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel4-small.JPG",
+                    "medium": "images/eiffel/eiffel4.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel5-small.JPG",
+                    "medium": "images/eiffel/eiffel5.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel6-small.JPG",
+                    "medium": "images/eiffel/eiffel6.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                },
+                {
+                    "small": "images/eiffel/eiffel7-small.JPG",
+                    "medium": "images/eiffel/eiffel7.JPG",
+                    "ratio": "vertical",
+                    "caption": "text"
+                }
+            ]
+        }
+    },
+    "piirrustukset": {
+        "akuankka": "Akuankka",
+        "roopeankka": "roopeankka"
+    },
+    "muut": {
+        "test": "test"
+    }
+}
+

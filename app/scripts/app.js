@@ -23,25 +23,13 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/rakennelmat', {
+      .when('/:categoryname', {
         templateUrl: 'views/category.html',
         controller: 'CategoryCtrl'
       })
-      .when('/akuankkapiirrokset', {
-        templateUrl: 'views/category.html',
-        controller: 'CategoryCtrl'
-      })
-      .when('/muut', {
-        templateUrl: 'views/category.html',
-        controller: 'CategoryCtrl'
-      })
-      .when('/cv', {
-        templateUrl: 'views/category.html',
-        controller: 'CategoryCtrl'
-      })
-      .when('/category/item', {
-        templateUrl: 'views/item.html',
-        controller: 'ItemCtrl'
+      .when('/:categoryname/:artworkname', {
+        templateUrl: 'views/artwork.html',
+        controller: 'ArtworkCtrl'
       })
       .otherwise({
         redirectTo: '/'
