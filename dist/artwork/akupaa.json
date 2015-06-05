@@ -1,0 +1,30 @@
+{
+    "name": "Aku Ankan pää",
+    "description": "this is description",
+    "images": [
+        {
+            "small": "images/akupaa/akupaa1-small.JPG",
+            "medium": "images/akupaa/akupaa1.JPG",
+            "ratio": "vertical",
+            "caption": "text"
+        },
+        {
+            "small": "images/akupaa/akupaa2-small.JPG",
+            "medium": "images/akupaa/akupaa2.JPG",
+            "ratio": "vertical",
+            "caption": "text"
+        },
+        {
+            "small": "images/akupaa/akupaa3-small.JPG",
+            "medium": "images/akupaa/akupaa3.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        },
+        {
+            "small": "images/akupaa/akupaa4-small.JPG",
+            "medium": "images/akupaa/akupaa4.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        }
+    ]
+}

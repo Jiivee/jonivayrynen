@@ -1,0 +1,48 @@
+{
+    "name": "Eiffel torni",
+    "description": "this is description",
+    "images": [
+        {
+            "small": "images/eiffel/eiffel1-small.JPG",
+            "medium": "images/eiffel/eiffel1.JPG",
+            "ratio": "vertical",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel2-small.JPG",
+            "medium": "images/eiffel/eiffel2.JPG",
+            "ratio": "vertical",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel3-small.JPG",
+            "medium": "images/eiffel/eiffel3.JPG",
+            "ratio": "vertical",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel4-small.JPG",
+            "medium": "images/eiffel/eiffel4.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel5-small.JPG",
+            "medium": "images/eiffel/eiffel5.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel6-small.JPG",
+            "medium": "images/eiffel/eiffel6.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        },
+        {
+            "small": "images/eiffel/eiffel7-small.JPG",
+            "medium": "images/eiffel/eiffel7.JPG",
+            "ratio": "horizontal",
+            "caption": "text"
+        }
+    ]
+}
