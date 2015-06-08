@@ -2,11 +2,12 @@
 
 angular.module('jonivayrynenApp')
   .controller('ArtworkCtrl', function ($scope, $http, $routeParams) {
-    var artworkname = $routeParams.artworkname;
-    var artworkurl = 'artwork/' + artworkname + '.json';
-    $http.get(artworkurl).success(function(data) {
-      $scope.artwork = data;
+    $scope.artworkname = $routeParams.artworkname;
+    $scope.categoryname = $routeParams.categoryname;
+    $http.get('artwork/artwork.json').success(function(data) {
+      $scope.artworks = data;
+      $scope.category = data[$scope.categoryname];
+      $scope.artwork = data[$scope.categoryname][$scope.artworkname];
     });
-
 
   });

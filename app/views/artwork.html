@@ -22,7 +22,7 @@
 
 <div class="sidebar-container">
   <div class="sidebar">
-    <img src="images/akupaa/akupaa4-small.JPG"><br>
+    <div ng-repeat="(key, value) in category" class="sidebar-item"><a href="#/{{categoryname}}/{{key}}">{{value.name}}</a></div>
   </div>
 </div>
 

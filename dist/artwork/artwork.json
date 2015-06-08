@@ -8,25 +8,25 @@
                     "small": "images/akupaa/akupaa1-small.JPG",
                     "medium": "images/akupaa/akupaa1.JPG",
                     "ratio": "vertical",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/akupaa/akupaa2-small.JPG",
                     "medium": "images/akupaa/akupaa2.JPG",
                     "ratio": "vertical",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/akupaa/akupaa3-small.JPG",
                     "medium": "images/akupaa/akupaa3.JPG",
                     "ratio": "horizontal",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/akupaa/akupaa4-small.JPG",
                     "medium": "images/akupaa/akupaa4.JPG",
                     "ratio": "horizontal",
-                    "caption": "text"
+                    "caption": ""
                 }
             ]
         },
@@ -38,50 +38,148 @@
                     "small": "images/eiffel/eiffel1-small.JPG",
                     "medium": "images/eiffel/eiffel1.JPG",
                     "ratio": "vertical",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel2-small.JPG",
                     "medium": "images/eiffel/eiffel2.JPG",
                     "ratio": "vertical",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel3-small.JPG",
                     "medium": "images/eiffel/eiffel3.JPG",
                     "ratio": "vertical",
-                    "caption": "text"
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel4-small.JPG",
                     "medium": "images/eiffel/eiffel4.JPG",
-                    "ratio": "vertical",
-                    "caption": "text"
+                    "ratio": "horizontal",
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel5-small.JPG",
                     "medium": "images/eiffel/eiffel5.JPG",
-                    "ratio": "vertical",
-                    "caption": "text"
+                    "ratio": "horizontal",
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel6-small.JPG",
                     "medium": "images/eiffel/eiffel6.JPG",
-                    "ratio": "vertical",
-                    "caption": "text"
+                    "ratio": "horizontal",
+                    "caption": ""
                 },
                 {
                     "small": "images/eiffel/eiffel7-small.JPG",
                     "medium": "images/eiffel/eiffel7.JPG",
-                    "ratio": "vertical",
-                    "caption": "text"
+                    "ratio": "horizontal",
+                    "caption": ""
                 }
             ]
+        },
+        "huussi": {
+            "name": "Huussi",
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/huussi/huussi1-small.JPG",
+                    "medium": "images/huussi/huussi1.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/huussi/huussi2-small.JPG",
+                    "medium": "images/huussi/huussi2.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/huussi/huussi3-small.JPG",
+                    "medium": "images/huussi/huussi3.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/huussi/huussi4-small.JPG",
+                    "medium": "images/huussi/huussi4.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/huussi/huussi5-small.JPG",
+                    "medium": "images/huussi/huussi5.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
+        },
+        "kolikko": {
+            "name": "Kolikko",
+            "description": "this is description"
+        },
+        "puumaja": {
+            "name": "Puumaja",
+            "description": "this is description"
+        },
+        "rahasailio": {
+            "name": "Rahasäiliö",
+            "description": "this is description"
+        },
+        "pienirahasailio": {
+            "name": "Pieni rahasäiliö",
+            "description": "this is description"
+        },
+        "stonehenge": {
+            "name": "Stonehenge",
+            "description": "this is description"
+        },
+        "tiilitalo": {
+            "name": "Tiilitalo",
+            "description": "this is description"
         }
     },
-    "piirrustukset": {
-        "akuankka": "Akuankka",
-        "roopeankka": "roopeankka"
+    "piirustukset": {
+        "50vuotta": {
+            "name": "50-vuotiskortti",
+            "description": "this is description"
+        },
+        "akunaamat": {
+            "name": "Aku Ankan naamat",
+            "description": "this is description"
+        },
+        "hannuhanhi": {
+            "name": "Hannu Hanhi",
+            "description": "this is description"
+        },
+        "juovikasrubiini": {
+            "name": "Juovikas rubiini",
+            "description": "this is description"
+        },
+        "kultaintopii": {
+            "name": "Kulta Into-Pii",
+            "description": "this is description"
+        },
+        "panttipullot": {
+            "name": "Panttipullot",
+            "description": "this is description"
+        },
+        "pelikoriti": {
+            "name": "Peli Kortit",
+            "description": "this is description"
+        },
+        "roopeankka": {
+            "name": "Roope Ankka",
+            "description": "this is description"
+        },
+        "sudenpennut": {
+            "name": "Sudenpennut",
+            "description": "this is description"
+        },
+        "tupuhupulupu": {
+            "name": "Tupu Hupu ja Lupu",
+            "description": "this is description"
+        }
     },
     "muut": {
         "test": "test"
