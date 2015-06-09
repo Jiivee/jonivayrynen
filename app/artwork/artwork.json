@@ -176,7 +176,93 @@
         },
         "rahasailio": {
             "name": "Rahasäiliö",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/rahasailio/rahasailio1-small.JPG",
+                    "medium": "images/rahasailio/rahasailio1.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio2-small.JPG",
+                    "medium": "images/rahasailio/rahasailio2.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio3-small.JPG",
+                    "medium": "images/rahasailio/rahasailio3.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio4-small.JPG",
+                    "medium": "images/rahasailio/rahasailio4.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio5-small.JPG",
+                    "medium": "images/rahasailio/rahasailio5.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio6-small.JPG",
+                    "medium": "images/rahasailio/rahasailio6.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio7-small.JPG",
+                    "medium": "images/rahasailio/rahasailio7.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio8-small.JPG",
+                    "medium": "images/rahasailio/rahasailio8.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio9-small.JPG",
+                    "medium": "images/rahasailio/rahasailio9.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio10-small.JPG",
+                    "medium": "images/rahasailio/rahasailio10.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio11-small.JPG",
+                    "medium": "images/rahasailio/rahasailio11.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio12-small.JPG",
+                    "medium": "images/rahasailio/rahasailio12.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio13-small.JPG",
+                    "medium": "images/rahasailio/rahasailio13.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/rahasailio/rahasailio14-small.JPG",
+                    "medium": "images/rahasailio/rahasailio14.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "pienirahasailio": {
             "name": "Pieni rahasäiliö",
