@@ -119,14 +119,14 @@
             "description": "this is description",
             "images": [
                 {
-                    "small": "images/kolikko/kolikko1-small.JPG",
-                    "medium": "images/kolikko/kolikko1.JPG",
+                    "small": "images/kolikko/kolikko1-small.jpg",
+                    "medium": "images/kolikko/kolikko1.jpg",
                     "ratio": "horizontal",
                     "caption": ""
                 },
                 {
-                    "small": "images/kolikko/kolikko2-small.JPG",
-                    "medium": "images/kolikko/kolikko2.JPG",
+                    "small": "images/kolikko/kolikko2-small.jpg",
+                    "medium": "images/kolikko/kolikko2.jpg",
                     "ratio": "horizontal",
                     "caption": ""
                 },
