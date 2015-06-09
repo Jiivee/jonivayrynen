@@ -116,7 +116,27 @@
         },
         "kolikko": {
             "name": "Kolikko",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/kolikko/kolikko1-small.JPG",
+                    "medium": "images/kolikko/kolikko1.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/kolikko/kolikko2-small.JPG",
+                    "medium": "images/kolikko/kolikko2.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/kolikko/kolikko3-small.JPG",
+                    "medium": "images/kolikko/kolikko3.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "puumaja": {
             "name": "Puumaja",
