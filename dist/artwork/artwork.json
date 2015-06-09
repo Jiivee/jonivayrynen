@@ -140,7 +140,39 @@
         },
         "puumaja": {
             "name": "Puumaja",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/puumaja/puumaja1-small.JPG",
+                    "medium": "images/puumaja/puumaja1.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/puumaja/puumaja2-small.JPG",
+                    "medium": "images/puumaja/puumaja2.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/puumaja/puumaja3-small.JPG",
+                    "medium": "images/puumaja/puumaja3.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/puumaja/puumaja4-small.JPG",
+                    "medium": "images/puumaja/puumaja4.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/puumaja/puumaja5-small.JPG",
+                    "medium": "images/puumaja/puumaja5.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                }
+            ]
         },
         "rahasailio": {
             "name": "Rahasäiliö",
@@ -148,15 +180,117 @@
         },
         "pienirahasailio": {
             "name": "Pieni rahasäiliö",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/pienirahasailio/pienirahasailio1-small.JPG",
+                    "medium": "images/pienirahasailio/pienirahasailio1.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/pienirahasailio/pienirahasailio2-small.JPG",
+                    "medium": "images/pienirahasailio/pienirahasailio2.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/pienirahasailio/pienirahasailio3-small.JPG",
+                    "medium": "images/pienirahasailio/pienirahasailio3.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "stonehenge": {
             "name": "Stonehenge",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/stonehenge/stonehenge1-small.JPG",
+                    "medium": "images/stonehenge/stonehenge1.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge2-small.JPG",
+                    "medium": "images/stonehenge/stonehenge2.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge3-small.JPG",
+                    "medium": "images/stonehenge/stonehenge3.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge4-small.JPG",
+                    "medium": "images/stonehenge/stonehenge4.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge5-small.JPG",
+                    "medium": "images/stonehenge/stonehenge5.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge6-small.JPG",
+                    "medium": "images/stonehenge/stonehenge6.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/stonehenge/stonehenge7-small.JPG",
+                    "medium": "images/stonehenge/stonehenge7.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "tiilitalo": {
             "name": "Tiilitalo",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/tiilitalo/tiilitalo1-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo1.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/tiilitalo/tiilitalo2-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo2.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/tiilitalo/tiilitalo3-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo3.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/tiilitalo/tiilitalo4-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo4.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/tiilitalo/tiilitalo5-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo5.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                },
+                {
+                    "small": "images/tiilitalo/tiilitalo6-small.JPG",
+                    "medium": "images/tiilitalo/tiilitalo6.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                }
+            ]
         }
     },
     "piirustukset": {
