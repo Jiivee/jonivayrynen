@@ -379,7 +379,7 @@
             ]
         }
     },
-    "piirustukset": {
+    "akuankkapiirustukset": {
         "50vuotta": {
             "name": "50-vuotiskortti",
             "description": "this is description"
@@ -390,35 +390,83 @@
         },
         "hannuhanhi": {
             "name": "Hannu Hanhi",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/hannuhanhi/hannuhanhi-small.JPG",
+                    "medium": "images/hannuhanhi/hannuhanhi.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "juovikasrubiini": {
             "name": "Juovikas rubiini",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/juovikasrubiini/juovikasrubiini-small.JPG",
+                    "medium": "images/juovikasrubiini/juovikasrubiini.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "kultaintopii": {
             "name": "Kulta Into-Pii",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/kultaintopii/kultaintopii-small.JPG",
+                    "medium": "images/kultaintopii/kultaintopii.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "panttipullot": {
             "name": "Panttipullot",
             "description": "this is description"
         },
-        "pelikoriti": {
+        "pelikortit": {
             "name": "Peli Kortit",
             "description": "this is description"
         },
         "roopeankka": {
             "name": "Roope Ankka",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/roopeankka/roopeankka-small.JPG",
+                    "medium": "images/roopeankka/roopeankka.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "sudenpennut": {
             "name": "Sudenpennut",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/sudenpennut/sudenpennut-small.JPG",
+                    "medium": "images/sudenpennut/sudenpennut.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "tupuhupulupu": {
             "name": "Tupu Hupu ja Lupu",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/tupuhupulupu/tupuhupulupu-small.JPG",
+                    "medium": "images/tupuhupulupu/tupuhupulupu.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         }
     },
     "muut": {
