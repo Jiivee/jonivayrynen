@@ -1,14 +1,39 @@
 // bower:scss
 // endbower
+$lhl: 1.6em;
+
 
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+}
+
+.large-text {
+  font-size: 22px;
+  line-height: $lhl;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
 }
 
 .container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -24,26 +49,34 @@ body {
 
 
 .main-container {
-  width: 72.7272%;
+  width: 68%;
   display: inline-block;
   float: left;
 
   .main-content {
-    padding: 10px;
+    padding: 0 10px 0 10px;
 
     .headline {
       font-size: 20px;
     }
 
     .main-image {
-      max-height: 500px;
-      width: auto;
-      max-width: 100%;
       display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .verticalmainimage {
+      max-width: 56.25%;
     }
 
     .description {
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.6;
     }
 
     .small-images {
@@ -92,12 +125,10 @@ body {
   }
 }
 
-
-
 .sidebar-container {
- width: 27.2728%;
- display: inline-block;
- float: right;
+  width: 32%;
+  display: inline-block;
+  float: right;
 
   .sidebar-item {
     border-bottom: 1px solid #999;
@@ -106,8 +137,65 @@ body {
 }
 
 
+.row {
+  display: block;
+  width: 100%;
+  height: 250px;
+
+  .image-part {
+    width: 25%;
+    height: 250px;
+    display: inline-block;
+    float: left;
+
+    .row-image {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+  }
+
+  .text-part {
+    float: left;
+    display: inline-block;
+    width: 75%;
+  }
+
+  .category-description {
+    overflow: hidden;
+    height: 150px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(black, 1),
+      rgba(black, 1) $lhl,
+      rgba(black, 1) $lhl,
+      rgba(black, 0.8) $lhl*2,
+      rgba(black, 0.8) $lhl*2,
+      rgba(black, 0.6) $lhl*3,
+      rgba(black, 0.4) $lhl*3,
+      rgba(black, 0.2));
+  }
+}
+
+
+
+
+
+
+
+
 
 .footer {
   width: 100%;
   display: inline-block;
+}
+
+
+.img-ratio-133 {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
 }
