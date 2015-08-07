@@ -382,11 +382,27 @@
     "akuankkapiirustukset": {
         "50vuotta": {
             "name": "50-vuotiskortti",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/50vuotta/50vuotta-small.JPG",
+                    "medium": "images/50vuotta/50vuotta.JPG",
+                    "ratio": "horizontal",
+                    "caption": ""
+                }
+            ]
         },
         "akunaamat": {
             "name": "Aku Ankan naamat",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/akunaamat/akunaamat-small.JPG",
+                    "medium": "images/akunaamat/akunaamat.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                }
+            ]
         },
         "hannuhanhi": {
             "name": "Hannu Hanhi",
@@ -426,11 +442,51 @@
         },
         "panttipullot": {
             "name": "Panttipullot",
-            "description": "this is description"
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/panttipullot/panttipullot1-small.JPG",
+                    "medium": "images/panttipullot/panttipullot1.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/panttipullot/panttipullot2-small.JPG",
+                    "medium": "images/panttipullot/panttipullot2.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                }
+            ]
         },
         "pelikortit": {
-            "name": "Peli Kortit",
-            "description": "this is description"
+            "name": "Pelikortit",
+            "description": "this is description",
+            "images": [
+                {
+                    "small": "images/pelikortit/pelikortit1-small.JPG",
+                    "medium": "images/pelikortit/pelikortit1.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/pelikortit/pelikortit2-small.JPG",
+                    "medium": "images/pelikortit/pelikortit2.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/pelikortit/pelikortit3-small.JPG",
+                    "medium": "images/pelikortit/pelikortit3.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                },
+                {
+                    "small": "images/pelikortit/pelikortit4-small.JPG",
+                    "medium": "images/pelikortit/pelikortit4.JPG",
+                    "ratio": "vertical",
+                    "caption": ""
+                }
+            ]
         },
         "roopeankka": {
             "name": "Roope Ankka",
