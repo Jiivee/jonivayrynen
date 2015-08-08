@@ -1,7 +1,7 @@
 <div class="main-container">
   <div class="main-content">
     <h1>{{artwork.name}}</h1>
-    <div class="img-ratio-133">
+    <div class="image-container image-ratio-{{artwork.images[0].strictratio}}">
       <img class="main-image" ng-class="{verticalmainimage: artwork.images[0].ratio == 'vertical'}" ng-src="{{artwork.images[0].medium}}">
     </div>
     <div class="description">

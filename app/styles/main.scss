@@ -217,9 +217,32 @@ a {
 }
 
 
-.img-ratio-133 {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
+.image-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+.image-ratio-066 {
+  padding-bottom: 66.66%;
+}
+
+.image-ratio-070 {
+  padding-bottom: 70%;
+}
+
+.image-ratio-075 {
+  padding-bottom: 75%;
+}
+
+.image-ratio-133 {
+  padding-bottom: 75%;
+}
+
+.image-ratio-140 {
+  padding-bottom: 71.43%;
+}
+
+.image-ratio-202 {
+  padding-bottom: 49.44%;
 }
