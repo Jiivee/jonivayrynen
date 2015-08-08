@@ -45,6 +45,6 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt server",
-    "postinstall": "grunt bower"
+    "postinstall": "grunt"
   }
 }
