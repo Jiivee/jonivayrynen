@@ -45,6 +45,26 @@ a {
   padding: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #999;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+
+  .sitename {
+    font-size: 28px;
+  }
+
+  .header-item {
+    padding-left: 10px;
+  }
+
+  .header-item:hover {
+    color: #044c89;
+  }
+
+  .selectedheader {
+    color: #044c89;
+  }
 }
 
 
