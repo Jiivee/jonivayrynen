@@ -96,7 +96,6 @@ a {
   }
 
   .main-image {
-    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
@@ -229,6 +228,7 @@ a {
   position: relative;
   height: 0;
   overflow: hidden;
+  background-color: black;
 }
 
 .image-ratio-066 {
