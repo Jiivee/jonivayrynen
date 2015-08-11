@@ -13,24 +13,27 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <link href='//fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="jonivayrynenApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <div class="header">
+      <div class="header-centered">
+        <div class="header-container">
+          <a href="#/"><span class="sitename">Joni Väyrynen</span></a>
+          <a href="#/"><span class="header-item">Etusivu</span></a>
+          <a ng-href="#/rakennelmat"><span class="header-item" ng-class="{selectedheader: categoryname == 'rakennelmat'}">Rakennelmat</span></a>
+          <a ng-href="#/akuankkapiirustukset"><span class="header-item">Aku Ankka piirustukset</span></a>
+          <a ng-href="#/muut"><span class="header-item">Muut</span></a>
+          <a ng-href="#/cv"><span class="header-item">CV</span></a>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
-      <div class="header">
-        <a href="#/"><span class="sitename">Joni Väyrynen</span></a>
-        <a href="#/"><span class="header-item">Etusivu</span></a>
-        <a ng-href="#/rakennelmat"><span class="header-item" ng-class="{selectedheader: categoryname == 'rakennelmat'}">Rakennelmat</span></a>
-        <a ng-href="#/akuankkapiirustukset"><span class="header-item">Aku Ankka piirustukset</span></a>
-        <a ng-href="#/muut"><span class="header-item">Muut</span></a>
-        <a ng-href="#/cv"><span class="header-item">CV</span></a>
-      </div>
-
       <div>
         <div ng-view=""></div>
       </div>
