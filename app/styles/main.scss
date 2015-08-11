@@ -41,9 +41,9 @@ a {
 /* Header */
 
 .header {
-  padding: 10px 0;
+  padding: 8px 0;
   margin-bottom: 10px;
-  border-bottom: 2px solid #999;
+  border-bottom: 1px solid #999;
   background-color: #666;
 
   .header-centered {
@@ -70,7 +70,7 @@ a {
       }
 
       .header-item:hover {
-        color: #044c89;
+        color: #bbb;
       }
 
       .selectedheader {
