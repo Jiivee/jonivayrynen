@@ -21,7 +21,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="header">
-      <div class="header-centered">
+      <div class="centerer">
         <div class="header-container">
           <a href="#/"><span class="sitename">Joni Väyrynen</span></a>
           <a href="#/"><span class="header-item">Etusivu</span></a>
@@ -32,17 +32,22 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div>
-        <div ng-view=""></div>
-      </div>
-
-
-      <div class="footer">
-          <span class="">joni.vayrynen@gmail.com</span>
+    <div class="main-content">
+      <div class="centerer">
+        <div class="main-container">
+          <div ng-view=""></div>
+        </div>
       </div>
     </div>
+
+    <div class="footer">
+      <div class="centerer">
+        <div class="footer-container">
+          <span class="copyright">© Joni Väyrynen  joni.vayrynen@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Google Analytics -->
     <script>

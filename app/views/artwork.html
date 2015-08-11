@@ -1,5 +1,5 @@
-<div class="main-container">
-  <div class="main-content">
+<div class="mainbar">
+  <div class="mainbar-container">
     <h1>{{artwork.name}}</h1>
     <div class="image-container image-ratio-{{artwork.images[0].strictratio}}">
       <img class="main-image" ng-src="{{artwork.images[0].medium}}">
@@ -21,8 +21,8 @@
 </div>
 
 
-<div class="sidebar-container">
-  <div class="sidebar">
+<div class="sidebar">
+  <div class="sidebar-container">
     <div ng-repeat="(key, value) in category" class="sidebar-item"><a href="#/{{categoryname}}/{{key}}">{{value.name}}</a></div>
   </div>
 </div>
