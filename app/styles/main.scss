@@ -25,6 +25,12 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
 .large-text {
   font-size: 22px;
   line-height: $lhl;
@@ -84,7 +90,7 @@ a {
   min-height: 100%;
 
   .main-container {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 15px;
   }
 }
 
@@ -95,7 +101,7 @@ a {
   float: left;
 
   .mainbar-container {
-    padding-right: 5px;
+    padding-right: 10px;
 
     .main-image {
       position: absolute;
@@ -163,11 +169,16 @@ a {
   float: right;
 
   .sidebar-container {
-    padding-left: 5px;
+    padding: 45px 0 0 15px;
 
     .sidebar-item {
-      border-bottom: 1px solid #999;
-      border-top: 1px solid #999;
+      border-bottom: 1px solid #bbb;
+      padding: 10px 0;
+
+      .sidebar-image {
+        max-height: 80px;
+        max-width: 106px;
+      }
     }
   }
 }
