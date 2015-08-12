@@ -26,12 +26,12 @@
     <h3>Tietoja</h3>
     <div>Vuosi: 2004</div>
     <div>Koko: A2-paperi</div>
-
-    <h3>Muut {{categoryname}}</h3>
-    <div ng-repeat="(key, value) in category" class="sidebar-item">
-      <a href="#/{{categoryname}}/{{key}}"><img class="sidebar-image" ng-src="{{value.images[0].small}}"></a>
-      <a href="#/{{categoryname}}/{{key}}">{{value.name}}</a>
-
+    <div class="other-works">
+      <h3>Muut {{categoryname}}</h3>
+      <div ng-repeat="(key, value) in category" class="sidebar-item">
+        <a href="#/{{categoryname}}/{{key}}"><img class="sidebar-image" ng-src="{{value.images[0].small}}"></a>
+        <a href="#/{{categoryname}}/{{key}}"><div class="work-name">{{value.name}}</div></a>
+      </div>
     </div>
   </div>
 </div>

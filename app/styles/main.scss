@@ -171,13 +171,25 @@ a {
   .sidebar-container {
     padding: 45px 0 0 15px;
 
-    .sidebar-item {
-      border-bottom: 1px solid #bbb;
-      padding: 10px 0;
+    .other-works {
+      padding-top: 200px;
 
-      .sidebar-image {
-        max-height: 80px;
-        max-width: 106px;
+      .sidebar-item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        position: relative;
+
+        .sidebar-image {
+          max-height: 80px;
+          max-width: 106px;
+        }
+
+        .work-name {
+          display: inline-block;
+          position: absolute;
+          left: 115px;
+          font-size: 18px;
+        }
       }
     }
   }
