@@ -1,5 +1,5 @@
 <div class="">
-  <h1>{{categoryname}}</h1>
+  <h1>{{getNameOfCategory(categoryname)}}</h1>
   <div ng-repeat="(key, artwork) in category | orderBy: 'order'" class="row">
     <a href="#/{{categoryname}}/{{key}}">
       <div class="image-part">

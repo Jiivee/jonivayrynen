@@ -7,4 +7,14 @@ angular.module('jonivayrynenApp')
       $scope.artworks = data;
       $scope.category = data[$scope.categoryname];
     });
+
+    $scope.getNameOfCategory = function (nameofcategory) {
+      if (nameofcategory === 'rakennelmat') {
+        return 'Rakennelmat';
+      }
+      else if (nameofcategory === 'akuankkapiirustukset') {
+        return 'Aku Ankka piirustukset';
+      }
+      return nameofcategory;
+    };
   });

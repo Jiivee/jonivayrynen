@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'jonivayrynenApp.directives'
   ])
   .config(function ($routeProvider) {
     $routeProvider

@@ -10,4 +10,19 @@ angular.module('jonivayrynenApp')
       $scope.artwork = data[$scope.categoryname][$scope.artworkname];
     });
 
+    $scope.getNameOfCategory = function (nameofcategory) {
+      if (nameofcategory === 'rakennelmat') {
+        return 'Rakennelmat';
+      }
+      else if (nameofcategory === 'akuankkapiirustukset') {
+        return 'Aku Ankka piirustukset';
+      }
+      return nameofcategory;
+    };
+
+
+  $scope.modalShown = false;
+  $scope.toggleModal = function() {
+    $scope.modalShown = !$scope.modalShown;
+  };
   });
