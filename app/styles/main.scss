@@ -319,26 +319,27 @@ a {
 
 
 
-.ng-modal-overlay {
+.modal-overlay {
   /* A dark translucent div that covers the whole screen */
   position:fixed;
   z-index:9999;
   top:0;
   left:0;
-  width:110%;
-  height:110%;
+  width:100%;
+  height:120%;
   background-color:#000000;
   opacity: 0.8;
   overflow: hidden;
 }
-.ng-modal-dialog {
+.modal-dialog {
   /* A centered div above the overlay with a box shadow. */
   z-index:10000;
   position: fixed;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
 
   /* Center the dialog */
+  padding: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -347,11 +348,8 @@ a {
   background-color: #fff;
   box-shadow: 4px 4px 80px #000;
 }
-.ng-modal-dialog-content {
-  padding:10px;
-  text-align: left;
-}
-.ng-modal-close {
+
+.modal-close {
   position: fixed;
   top: 3px;
   right: 5px;
@@ -364,8 +362,10 @@ a {
 }
 
 .modal-image {
-  padding: 20px;
-  background-color: white;
   max-width: 100%;
   max-height: 100%;
+}
+
+.modal-caption {
+
 }

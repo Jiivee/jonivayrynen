@@ -5,7 +5,8 @@ angular.module('jonivayrynenApp.directives', []).directive('imageModal', functio
     restrict: 'E',
     scope: {
       show: '=',
-      path: '='
+      imagedata: '=',
+      allimages: '='
     },
     replace: true, // Replace with the template below
     transclude: true, // we want to insert custom content inside the directive
@@ -13,14 +14,36 @@ angular.module('jonivayrynenApp.directives', []).directive('imageModal', functio
       scope.hideModal = function() {
         scope.show = false;
       };
+      scope.nextImage = function() {
+        var imageIndex = scope.allimages.indexOf(scope.imagedata);
+        var numberOfImages = scope.allimages.length;
+        if (imageIndex < (numberOfImages - 1)) {
+          scope.imagedata = scope.allimages[imageIndex + 1];
+        }
+        else {
+          scope.imagedata = scope.allimages[0];
+        }
+      };
+      scope.prevImage = function() {
+        var imageIndex = scope.allimages.indexOf(scope.imagedata);
+        var numberOfImages = scope.allimages.length;
+        if (imageIndex !== 0) {
+          scope.imagedata = scope.allimages[imageIndex - 1];
+        }
+        else {
+          scope.imagedata = scope.allimages[numberOfImages - 1];
+        }
+      };
     },
     template:
-      '<div class="ng-modal" ng-show="show">' +
-      '  <div class="ng-modal-overlay" ng-click="hideModal()"></div>' +
-      '  <div class="ng-modal-dialog">' +
-      '  <img class="modal-image" ng-src="{{path}}">' +
-      '    <div class="ng-modal-close" ng-click="hideModal()">X</div>' +
-      '    <div class="ng-modal-dialog-content ng-transclude"></div>' +
+      '<div class="modal" ng-show="show">' +
+      '  <div class="modal-overlay" ng-click="hideModal()"></div>' +
+      '  <div class="modal-dialog">' +
+      '  <img class="modal-image" ng-src="{{imagedata.medium}}">' +
+      '    <div class="modal-close" ng-click="hideModal()">X</div>' +
+      '    <div class="modal-prev" ng-click="prevImage()">Edellinen</div>' +
+      '    <div class="modal-next" ng-click="nextImage()">Seuraava</div>' +
+      '    <div class="modal-caption">{{imagedata.caption}}</div>' +
       '  </div>' +
       '</div></div>'
   };

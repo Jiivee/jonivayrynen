@@ -8,6 +8,7 @@ angular.module('jonivayrynenApp')
       $scope.artworks = data;
       $scope.category = data[$scope.categoryname];
       $scope.artwork = data[$scope.categoryname][$scope.artworkname];
+      $scope.allImages = data[$scope.categoryname][$scope.artworkname].images;
     });
 
     $scope.getNameOfCategory = function (nameofcategory) {
@@ -20,10 +21,11 @@ angular.module('jonivayrynenApp')
       return nameofcategory;
     };
 
-  $scope.imagePath = '';
+  $scope.imgData = '';
   $scope.modalShown = false;
-  $scope.toggleModal = function(path) {
+  $scope.toggleModal = function(imagedata) {
     $scope.modalShown = !$scope.modalShown;
-    $scope.imagePath = path;
+    $scope.imgData = imagedata;
+    $scope.allImages = $scope.artwork.images;
   };
   });
