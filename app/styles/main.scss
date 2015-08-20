@@ -108,6 +108,7 @@ a {
       top: 0;
       left: 0;
       height: 100%;
+      cursor: pointer;
     }
 
     .description {
@@ -334,7 +335,8 @@ a {
   /* A centered div above the overlay with a box shadow. */
   z-index:10000;
   position: fixed;
-  width: 50%; /* Default */
+  max-width: 100%;
+  max-height: 100%;
 
   /* Center the dialog */
   top: 50%;
@@ -359,4 +361,11 @@ a {
   display: inline-block;
   font-weight: bold;
   font-family: 'arial', 'sans-serif';
+}
+
+.modal-image {
+  padding: 20px;
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
 }

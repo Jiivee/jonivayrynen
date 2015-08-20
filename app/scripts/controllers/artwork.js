@@ -20,9 +20,10 @@ angular.module('jonivayrynenApp')
       return nameofcategory;
     };
 
-
+  $scope.imagePath = '';
   $scope.modalShown = false;
-  $scope.toggleModal = function() {
+  $scope.toggleModal = function(path) {
     $scope.modalShown = !$scope.modalShown;
+    $scope.imagePath = path;
   };
   });
