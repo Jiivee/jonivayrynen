@@ -332,16 +332,32 @@ a {
   overflow: hidden;
 }
 .modal-dialog {
+
   .modal-close {
+    z-index: 10000;
+    height: 30px;
+    width: 30px;
+    background-color: #ddd;
+    border-radius: 20px;
     position: fixed;
-    top: 3px;
-    right: 5px;
-    padding: 5px;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0;
     cursor: pointer;
-    font-size: 120%;
-    display: inline-block;
-    font-weight: bold;
-    font-family: 'arial', 'sans-serif';
+    border: 5px solid #000;
+  }
+
+  .modal-close:after {
+      position: fixed;
+      top: 0;
+      right: 0;
+      content: "\274c"; /* use the hex value here... */
+      font-size: 24px;
+      color: #000;
+      line-height: 0px;
+      text-align: center;
+      padding-top: 24px;
+      padding-right: 13px;
   }
 
   .modal-image {
