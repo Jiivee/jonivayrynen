@@ -43,8 +43,8 @@ angular.module('jonivayrynenApp.directives', []).directive('imageModal', functio
       '    <div class="modal-close" ng-click="hideModal()">X</div>' +
       '  </div>' +
       '  <div class="modal-caption-bar">' +
-      '    <div class="modal-prev" ng-click="prevImage()">← Edellinen</div>' +
-      '    <div class="modal-next" ng-click="nextImage()">Seuraava →</div>' +
+      '    <div class="modal-prev modal-move" ng-click="prevImage()">← Edellinen</div>' +
+      '    <div class="modal-next modal-move" ng-click="nextImage()">Seuraava →</div>' +
       '    <div class="modal-caption">{{imagedata.caption}}</div>' +
       '  </div>' +
       '</div></div>'
