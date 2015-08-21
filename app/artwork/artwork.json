@@ -8,6 +8,7 @@
                 {
                     "small": "images/akupaa/akupaa1-small.JPG",
                     "medium": "images/akupaa/akupaa1.JPG",
+                    "large": "images/akupaa/akupaa1-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -15,6 +16,7 @@
                 {
                     "small": "images/akupaa/akupaa2-small.JPG",
                     "medium": "images/akupaa/akupaa2.JPG",
+                    "large": "images/akupaa/akupaa2-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -22,6 +24,7 @@
                 {
                     "small": "images/akupaa/akupaa3-small.JPG",
                     "medium": "images/akupaa/akupaa3.JPG",
+                    "large": "images/akupaa/akupaa3-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -29,6 +32,7 @@
                 {
                     "small": "images/akupaa/akupaa4-small.JPG",
                     "medium": "images/akupaa/akupaa4.JPG",
+                    "large": "images/akupaa/akupaa4-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -43,34 +47,39 @@
                 {
                     "small": "images/eiffel/eiffel1-small.JPG",
                     "medium": "images/eiffel/eiffel1.JPG",
+                    "large": "images/eiffel/eiffel1-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/eiffel/eiffel2-small.JPG",
                     "medium": "images/eiffel/eiffel2.JPG",
+                    "large": "images/eiffel/eiffel2-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/eiffel/eiffel3-small.JPG",
                     "medium": "images/eiffel/eiffel3.JPG",
+                    "large": "images/eiffel/eiffel3-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/eiffel/eiffel4-small.JPG",
                     "medium": "images/eiffel/eiffel4.JPG",
+                    "large": "images/eiffel/eiffel4-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/eiffel/eiffel5-small.JPG",
                     "medium": "images/eiffel/eiffel5.JPG",
+                    "large": "images/eiffel/eiffel5-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -78,6 +87,7 @@
                 {
                     "small": "images/eiffel/eiffel6-small.JPG",
                     "medium": "images/eiffel/eiffel6.JPG",
+                    "large": "images/eiffel/eiffel6-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -85,6 +95,7 @@
                 {
                     "small": "images/eiffel/eiffel7-small.JPG",
                     "medium": "images/eiffel/eiffel7.JPG",
+                    "large": "images/eiffel/eiffel7-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -99,34 +110,39 @@
                 {
                     "small": "images/huussi/huussi1-small.JPG",
                     "medium": "images/huussi/huussi1.JPG",
+                    "large": "images/huussi/huussi1-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/huussi/huussi2-small.JPG",
                     "medium": "images/huussi/huussi2.JPG",
+                    "large": "images/huussi/huussi2-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/huussi/huussi3-small.JPG",
                     "medium": "images/huussi/huussi3.JPG",
+                    "large": "images/huussi/huussi3-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/huussi/huussi4-small.JPG",
                     "medium": "images/huussi/huussi4.JPG",
+                    "large": "images/huussi/huussi4-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
-                    "caption": "This is a test caption"
+                    "caption": "This is a test caption. This is a test caption. "
                 },
                 {
                     "small": "images/huussi/huussi5-small.JPG",
                     "medium": "images/huussi/huussi5.JPG",
+                    "large": "images/huussi/huussi5-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -141,6 +157,7 @@
                 {
                     "small": "images/kolikko/kolikko1-small.JPG",
                     "medium": "images/kolikko/kolikko1.JPG",
+                    "large": "images/kolikko/kolikko1-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -148,6 +165,7 @@
                 {
                     "small": "images/kolikko/kolikko2-small.JPG",
                     "medium": "images/kolikko/kolikko2.JPG",
+                    "large": "images/kolikko/kolikko2-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -155,6 +173,7 @@
                 {
                     "small": "images/kolikko/kolikko3-small.JPG",
                     "medium": "images/kolikko/kolikko3.JPG",
+                    "large": "images/kolikko/kolikko3-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -169,6 +188,7 @@
                 {
                     "small": "images/puumaja/puumaja1-small.JPG",
                     "medium": "images/puumaja/puumaja1.JPG",
+                    "large": "images/puumaja/puumaja1-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -176,6 +196,7 @@
                 {
                     "small": "images/puumaja/puumaja2-small.JPG",
                     "medium": "images/puumaja/puumaja2.JPG",
+                    "large": "images/puumaja/puumaja2-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -183,6 +204,7 @@
                 {
                     "small": "images/puumaja/puumaja3-small.JPG",
                     "medium": "images/puumaja/puumaja3.JPG",
+                    "large": "images/puumaja/puumaja3-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -190,6 +212,7 @@
                 {
                     "small": "images/puumaja/puumaja4-small.JPG",
                     "medium": "images/puumaja/puumaja4.JPG",
+                    "large": "images/puumaja/puumaja4-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "075",
                     "caption": "This is a test caption"
@@ -197,6 +220,7 @@
                 {
                     "small": "images/puumaja/puumaja5-small.JPG",
                     "medium": "images/puumaja/puumaja5.JPG",
+                    "large": "images/puumaja/puumaja5-large.JPG",
                     "ratio": "vertical",
                     "strictratio": "075",
                     "caption": "This is a test caption"
