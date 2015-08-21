@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonivayrynenApp.directives', []).directive('imageModal', function() {
+angular.module('jonivayrynenApp.directives', []).directive('imageModal', function($document) {
   return {
     restrict: 'E',
     scope: {
@@ -12,6 +12,8 @@ angular.module('jonivayrynenApp.directives', []).directive('imageModal', functio
     transclude: true, // we want to insert custom content inside the directive
     link: function(scope) {
       scope.hideModal = function() {
+        var bodyRef = angular.element( $document[0].body );
+        bodyRef.removeClass('stop-scroll');
         scope.show = false;
       };
       scope.nextImage = function() {
