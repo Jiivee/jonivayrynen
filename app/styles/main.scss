@@ -334,7 +334,7 @@ a {
 
 
 .modal-overlay {
-  /* A dark translucent div that covers the whole screen */
+  /* Dark overlay */
   position: fixed;
   z-index: 9999;
   top: 0;
@@ -342,11 +342,12 @@ a {
   width: 100%;
   height: 120%;
   background-color: #000;
-  opacity: 0.8;
+  opacity: 0.85;
   overflow: hidden;
 }
 .modal-dialog {
 
+  /*Circle for close button*/
   .modal-close {
     z-index: 10001;
     height: 30px;
@@ -361,18 +362,33 @@ a {
     border: 5px solid #000;
   }
 
-  .modal-close:after {
-      position: fixed;
-      top: 0;
-      right: 0;
-      content: "\274c"; /* use the hex value here... */
-      font-size: 24px;
-      color: #000;
-      line-height: 0px;
-      text-align: center;
-      padding-top: 24px;
-      padding-right: 13px;
+  /*Cross for close button*/
+  .modal-close:after, .modal-close:before{
+    position: fixed;
+    top: 23px;
+    right: 12px;
+    content: '';
+    width: 25px;
+    height: 4px;
+    background-color: #000;
   }
+
+  .modal-close:after{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .modal-close:before{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
 
   .modal-image {
     z-index: 10000;
