@@ -46,6 +46,7 @@ a {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 .stop-scroll {
@@ -94,6 +95,23 @@ a {
 }
 
 
+.test1 {
+  height: 600px;
+  width: 100%;
+  background-color: #333;
+}
+
+.test2 {
+  height: 100%;
+  min-height: 90%;
+  background-color: #777;
+}
+
+.test3 {
+  height: 800px;
+  width: 100%;
+  background-color: #bbb;
+}
 
 .welcome-area {
   min-height: calc(100% - 58px);
@@ -290,10 +308,45 @@ a {
 
     .copyright {
       position: absolute;
+      display: inline-block;
       top: 50%;
       -ms-transform: translateY(-50%);
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
+    }
+
+    .social-media {
+      float: right;
+
+      .social-item {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        padding-right: 7px;
+      }
+
+      .twitter {
+        background:transparent url('/images/twitter.png') center top no-repeat;
+      }
+      .twitter:hover {
+        background-image: url('/images/twitter-hover.png');
+      }
+
+      .github {
+        background:transparent url('/images/github.png') center top no-repeat;
+      }
+      .github:hover {
+        background-image: url('/images/github-hover.png');
+      }
+
+      .linkedin {
+        background:transparent url('/images/linkedin.png') center top no-repeat;
+        background-size: 40.5px 32px;
+        width: 40.5px
+      }
+      .linkedin:hover {
+        background-image: url('/images/linkedin-hover.png');
+      }
     }
   }
 }
