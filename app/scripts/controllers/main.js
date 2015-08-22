@@ -1,18 +1,11 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name jonivayrynenApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the jonivayrynenApp
- */
 angular.module('jonivayrynenApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.items = {};
-
-
-
+  .controller('MainCtrl', function ($scope, $http) {
+    //$scope.categoryname = $routeParams.categoryname;
+    $http.get('artwork/artwork.json', { headers: { 'Cache-Control' : 'no-cache' } } ).success(function(data) {
+      $scope.artworks = data;
+      //$scope.category = data[$scope.categoryname];
+    });
 
   });
-
