@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('jonivayrynenApp.directives', [])
-  .directive('imageModal', function($document) {
+  .directive('imageModal', function($document, usSpinnerService) {
     return {
       restrict: 'E',
       scope: {
@@ -12,12 +12,15 @@ angular.module('jonivayrynenApp.directives', [])
       replace: true, // Replace with the template below
       transclude: true, // we want to insert custom content inside the directive
       link: function(scope) {
+        usSpinnerService.spin('spinner-1');
         scope.hideModal = function() {
           var bodyRef = angular.element( $document[0].body );
           bodyRef.removeClass('stop-scroll');
           scope.show = false;
+          usSpinnerService.stop('spinner-1');
         };
         scope.nextImage = function() {
+          usSpinnerService.spin('spinner-1');
           var imageIndex = scope.allimages.indexOf(scope.imagedata);
           var numberOfImages = scope.allimages.length;
           if (imageIndex < (numberOfImages - 1)) {
@@ -28,6 +31,7 @@ angular.module('jonivayrynenApp.directives', [])
           }
         };
         scope.prevImage = function() {
+          usSpinnerService.spin('spinner-1');
           var imageIndex = scope.allimages.indexOf(scope.imagedata);
           var numberOfImages = scope.allimages.length;
           if (imageIndex !== 0) {
@@ -42,6 +46,7 @@ angular.module('jonivayrynenApp.directives', [])
         '<div class="modal" ng-show="show">' +
         '  <div class="modal-overlay" ng-click="hideModal()"></div>' +
         '  <div class="modal-dialog">' +
+        '    <span us-spinner spinner-key="spinner-1"></span>' +
         '    <img class="modal-image" imageonload ng-src="{{imagedata.large}}">' +
         '    <div class="modal-close" ng-click="hideModal()"></div>' +
         '  </div>' +
@@ -50,16 +55,16 @@ angular.module('jonivayrynenApp.directives', [])
         '    <div class="modal-next modal-move" ng-click="nextImage()">Seuraava →</div>' +
         '    <div class="modal-caption">{{imagedata.caption}}</div>' +
         '  </div>' +
-        '</div></div>'
+        '</div>'
     };
   })
-  .directive('imageonload', function() {
+  .directive('imageonload', function(usSpinnerService) {
     return {
       restrict: 'A',
       link: function(scope, element) {
         console.log('hello');
         element.bind('load', function() {
-          console.log('image is loaded');
+          usSpinnerService.stop('spinner-1');
         });
       }
     };
