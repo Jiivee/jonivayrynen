@@ -14,7 +14,6 @@ angular.module('jonivayrynenApp')
           $scope.allBuildingImages.push(imagesD[i]);
         }
       }
-      console.log($scope.allBuildingImages);
 
       $scope.allDrawingImages = [];
       var draw = 'akuankkapiirustukset';
@@ -25,7 +24,6 @@ angular.module('jonivayrynenApp')
           $scope.allDrawingImages.push(imagesP[j]);
         }
       }
-      console.log($scope.allDrawingImages);
     });
 
   });
