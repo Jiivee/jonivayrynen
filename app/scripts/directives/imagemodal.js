@@ -12,7 +12,6 @@ angular.module('jonivayrynenApp.directives', [])
       replace: true, // Replace with the template below
       transclude: true, // we want to insert custom content inside the directive
       link: function(scope) {
-        usSpinnerService.spin('spinner-1');
         scope.hideModal = function() {
           var bodyRef = angular.element( $document[0].body );
           bodyRef.removeClass('stop-scroll');
@@ -20,25 +19,30 @@ angular.module('jonivayrynenApp.directives', [])
           usSpinnerService.stop('spinner-1');
         };
         scope.nextImage = function() {
-          usSpinnerService.spin('spinner-1');
           var imageIndex = scope.allimages.indexOf(scope.imagedata);
           var numberOfImages = scope.allimages.length;
-          if (imageIndex < (numberOfImages - 1)) {
-            scope.imagedata = scope.allimages[imageIndex + 1];
+          if (numberOfImages > 1) {
+            usSpinnerService.spin('spinner-1');
+            if (imageIndex < (numberOfImages - 1)) {
+              scope.imagedata = scope.allimages[imageIndex + 1];
+            }
+            else {
+              scope.imagedata = scope.allimages[0];
+            }
           }
-          else {
-            scope.imagedata = scope.allimages[0];
-          }
+
         };
         scope.prevImage = function() {
-          usSpinnerService.spin('spinner-1');
           var imageIndex = scope.allimages.indexOf(scope.imagedata);
           var numberOfImages = scope.allimages.length;
-          if (imageIndex !== 0) {
-            scope.imagedata = scope.allimages[imageIndex - 1];
-          }
-          else {
-            scope.imagedata = scope.allimages[numberOfImages - 1];
+          if (numberOfImages > 1) {
+            usSpinnerService.spin('spinner-1');
+            if (imageIndex !== 0) {
+              scope.imagedata = scope.allimages[imageIndex - 1];
+            }
+            else {
+              scope.imagedata = scope.allimages[numberOfImages - 1];
+            }
           }
         };
       },

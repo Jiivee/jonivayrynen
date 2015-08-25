@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('jonivayrynenApp')
-  .controller('ArtworkCtrl', function ($scope, $http, $routeParams, $document) {
+  .controller('ArtworkCtrl', function ($scope, $http, $routeParams, $document, usSpinnerService) {
     $scope.artworkname = $routeParams.artworkname;
     $scope.categoryname = $routeParams.categoryname;
     $http.get('artwork/artwork.json').success(function(data) {
@@ -26,6 +26,7 @@ angular.module('jonivayrynenApp')
   $scope.imgData = '';
   $scope.modalShown = false;
   $scope.toggleModal = function(imagedata) {
+    usSpinnerService.spin('spinner-1');
     bodyRef.addClass('stop-scroll');
     $scope.modalShown = !$scope.modalShown;
     $scope.imgData = imagedata;
