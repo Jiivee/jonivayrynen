@@ -49,8 +49,8 @@ angular.module('jonivayrynenApp.directives', [])
       template:
         '<div class="modal" ng-show="show">' +
         '  <div class="modal-overlay" ng-click="hideModal()"></div>' +
+        '  <span us-spinner spinner-key="spinner-1"></span>' +
         '  <div class="modal-dialog">' +
-        '    <span us-spinner spinner-key="spinner-1"></span>' +
         '    <img class="modal-image" imageonload ng-src="{{imagedata.large}}">' +
         '    <div class="modal-close" ng-click="hideModal()"></div>' +
         '  </div>' +
@@ -66,7 +66,6 @@ angular.module('jonivayrynenApp.directives', [])
     return {
       restrict: 'A',
       link: function(scope, element) {
-        console.log('hello');
         element.bind('load', function() {
           usSpinnerService.stop('spinner-1');
         });

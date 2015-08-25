@@ -2,7 +2,9 @@
     "rakennelmat": {
         "rahasailio": {
             "name": "Rahasäiliö",
-            "order": 1,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -121,7 +123,9 @@
         },
         "pienirahasailio": {
             "name": "Pieni rahasäiliö",
-            "order": 2,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -152,7 +156,9 @@
         },
         "stonehenge": {
             "name": "Stonehenge",
-            "order": 3,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -215,7 +221,9 @@
         },
         "eiffel": {
             "name": "Eiffel torni",
-            "order": 4,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -278,7 +286,9 @@
         },
         "akupaa": {
             "name": "Aku pää",
-            "order": 5,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -317,7 +327,9 @@
         },
         "tiilitalo": {
             "name": "Tiilitalo",
-            "order": 6,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -372,7 +384,9 @@
         },
         "kolikko": {
             "name": "Kolikko",
-            "order": 7,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -403,7 +417,9 @@
         },
         "huussi": {
             "name": "Huussi",
-            "order": 8,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -450,7 +466,9 @@
         },
         "puumaja": {
             "name": "Puumaja",
-            "order": 9,
+            "year": "",
+            "size": "",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -499,8 +517,10 @@
     "akuankkapiirustukset": {
         "roopeankka": {
             "name": "Roope Ankka",
-            "order": 1,
-            "description": "Aloitin Aku Ankka piirrosten piirtämisen vuoden 2005 syksyllä ja tämä piirros Roopesta on ensimmäinen varsinainen Aku Ankka piirrokseni. Piirroksen piirtäminen kesti reilun viikon ja se on piirretty neljälle A4-kokoiselle paperille. Piirros on ensin hahmoteltu lyijykynällä ja sitten tussattu mustalla tussilla. Lopuksi se on väritetty tietokoneella. \n\nPiirroksessa Roopen takana on vuoden 1875 Yhdysvaltain kymmen penninen, jonka Don Rosa kertoo olevan Roopen ensilantti. Ensilantin taustalla näkyy poikkileikkaus Roopen rahasäiliöstä: Vasemmalla ylhäällä näkyy Roopen trofeehuone, josta voi tunnistaa Roopen löytämiä aarteita Don Rosan ja Carl Barksin tarinoista. Trofeehuoneen alla on Roopen työhuone ja työhuoneen alla aarrekammioita. Oikealla näkyy rahalaari. \n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
+            "year": "2005",
+            "size": "A2-paperi",
+            "materials": "",
+            "description": "Aloitin Aku Ankka piirrosten piirtämisen vuoden 2005 syksyllä ja tämä piirros Roopesta on ensimmäinen varsinainen Aku Ankka piirrokseni. Piirroksen piirtäminen kesti reilun viikon ja se on piirretty neljälle A4-kokoiselle paperille. Piirros on ensin hahmoteltu lyijykynällä ja sitten tussattu mustalla tussilla. Lopuksi se on väritetty tietokoneella. \n\nPiirroksessa Roopen takana on vuoden 1875 Yhdysvaltain kymmensenttinen, jonka Don Rosa kertoo olevan Roopen ensilantti. Ensilantin taustalla näkyy poikkileikkaus Roopen rahasäiliöstä: Vasemmalla ylhäällä näkyy Roopen trofeehuone, josta voi tunnistaa Roopen löytämiä aarteita Don Rosan ja Carl Barksin tarinoista. Trofeehuoneen alla on Roopen työhuone ja työhuoneen alla aarrekammioita. Oikealla näkyy rahalaari. \n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
             "images": [
                 {
                     "small": "images/roopeankka/roopeankka-small.JPG",
@@ -514,7 +534,9 @@
         },
         "sudenpennut": {
             "name": "Sudenpennut",
-            "order": 2,
+            "year": "2005",
+            "size": "A2-paperi",
+            "materials": "",
             "description": "Tässä toisessa Aku Ankka piirroksessani Tupusta, Hupusta ja Lupusta sudenpentuina on viittauksia Don Rosan tarinoihin ”Kadonneen kirjaston vartijat” ja ”K.A.S.V.A.T.U.S.O.P.P.I.A.”. Piirros noudattaa samaa kaavaa Roope piirroksen kanssa, mutta kolikon sijaan Sudenpentujen takana on kadonneen kirjaston logo (väärinpäin oleva sudenpentujen tunnus). Taustalla taas on Roopen rahasäiliökukkulalla aiemmin ollut Ankkalinnake, jonka Jänteet Tupu, Hupu ja Lupu pelastavat liittyessään Sudenpentuihin.",
             "images": [
                 {
@@ -529,7 +551,9 @@
         },
         "hannuhanhi": {
             "name": "Hannu Hanhi",
-            "order": 3,
+            "year": "2006",
+            "size": "A2-paperi",
+            "materials": "",
             "description": "Hannu Hanhi piirroksessa Hannun takana ei enää ole ympyrän muotoinen esine kuten Roope ja Sudenpennut piirroksissa, vaan mikäs muukaan kuin onnensymboli neliapila. Taustalla taas on Mummo Ankan lato Don Rosan tarinasta ”Kolmoistikliaisen merkki”, jossa Hannusta tulee epäonninen syntymäpäiviensä ajaksi.\n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
             "images": [
                 {
@@ -544,7 +568,9 @@
         },
         "kultaintopii": {
             "name": "Kulta-Into Pii",
-            "order": 4,
+            "year": "2006",
+            "size": "A2-paperi",
+            "materials": "",
             "description": "Neljäs hahmo piirrokseni on Roope Ankan pahimmasta kilpailijasta Kulta-Into Piistä. Tässä piirroksessa hahmon takana ei ole enää mitään esinettä tai logoa (Roope piirroksessa ensilantti, Sudenpennut piirroksessa kadonneen kirjaston tunnus ja Hannu piirroksessa neliapila), vaan tausta näkyy vain Kulta-Into Piin rahasäiliö. ",
             "images": [
                 {
@@ -559,7 +585,9 @@
         },
         "tupuhupulupu": {
             "name": "Tupu, Hupu ja Lupu",
-            "order": 5,
+            "year": "2009",
+            "size": "A3-paperi",
+            "materials": "",
             "description": "Toisin kuin muut isot Aku Ankka piirrokset tämä piirros Tupusta, Hupusta ja Lupusta on piirretty vain kahdelle A4- kokoiselle paperille. Piirroksessa Tupu, Hupu ja Lupu kiillottavat kolikoita Roope Ankan rahasäiliössä ja toisin kuin Akun mielestä, ankanpoikien mielestä kolikoiden kiillotus on hauskaa puuhaa sillä he voivat samalla rakentaa kolikkolinnoja. \n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
             "images": [
                 {
@@ -574,7 +602,9 @@
         },
         "juovikasrubiini": {
             "name": "Juovikas rubiini",
-            "order": 6,
+            "year": "2007",
+            "size": "A2-paperi",
+            "materials": "",
             "description": "Tämä piirros perustuu Carl Barksin tarinaa ”Juovikas rubiini”. Don Rosa piirsi useita niin sanottuja pin-up-piirroksia Carl Barksin tarinoista, mutta tarina juovikkaasta rubiinista ei kuulu niihin, joten päätin piirtää tarinasta vastaavan. Tosin minun piirrokseni, toisin kuin useimmat Rosan pin-up-piirroksista, on vaaka suuntainen. \n\nPiirroksessa on kuvattu tarinan tärkeimmät kohdat: sukellus veneessä olevat Ankat pelastautuvat jättiläismeduusalta syöttämällä sille karamelleja, Rippan Taron kuningas vaihtaa juovikkaan rubiinin karamelleihin ja Karhukopla yrittää varastaa rubiinin Roopelta.",
             "images": [
                 {
@@ -589,7 +619,9 @@
         },
         "50vuotta": {
             "name": "50-vuotiskortti",
-            "order": 7,
+            "year": "2015",
+            "size": "22 x 10 cm",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -604,7 +636,9 @@
         },
         "akunaamat": {
             "name": "Aku Ankan naamat",
-            "order": 8,
+            "year": "2006",
+            "size": "A5-paperi",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -619,7 +653,9 @@
         },
         "panttipullot": {
             "name": "Panttipullot",
-            "order": 9,
+            "year": "2005",
+            "size": "A3-paperi",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -642,7 +678,9 @@
         },
         "pelikortit": {
             "name": "Pelikortit",
-            "order": 10,
+            "year": "2006",
+            "size": "11 x 17 cm",
+            "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
