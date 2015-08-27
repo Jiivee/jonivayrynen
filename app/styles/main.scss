@@ -534,3 +534,98 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .row {
+    border-bottom: none;
+    height: 100%;
+
+    .image-part {
+      width: 100%;
+      height: 100%;
+      display: block;
+
+    }
+
+    .text-part {
+      display: block;
+      padding-left: 0;
+      width: 100%;
+      padding: 5px 0;
+
+      .read-more {
+        font-weight: 400;
+        padding-bottom: 25px;
+      }
+    }
+  }
+
+
+
+
+  .mainbar {
+    width: 100%;
+    display: block;
+
+    .mainbar-container {
+      padding-right: 0;
+
+      .main-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        cursor: pointer;
+      }
+
+      .description {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .small-images {
+
+        .small-image-container {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+
+
+  .sidebar {
+    width: 100%;
+    display: block;
+
+    .sidebar-container {
+      padding: 0;
+
+      .other-works {
+        padding-top: 200px;
+
+        .sidebar-item {
+
+          .sidebar-image {
+          }
+
+          .work-name {
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+
