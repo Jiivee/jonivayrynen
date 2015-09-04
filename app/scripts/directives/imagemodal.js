@@ -50,9 +50,9 @@ angular.module('jonivayrynenApp.directives', [])
         '<div class="modal" ng-show="show">' +
         '  <div class="modal-overlay" ng-click="hideModal()"></div>' +
         '  <span us-spinner spinner-key="spinner-1"></span>' +
+        '  <div class="modal-close" ng-click="hideModal()"></div>' +
         '  <div class="modal-dialog">' +
         '    <img class="modal-image" imageonload ng-src="{{imagedata.large}}">' +
-        '    <div class="modal-close" ng-click="hideModal()"></div>' +
         '  </div>' +
         '  <div class="modal-caption-bar">' +
         '    <div class="modal-prev modal-move" ng-click="prevImage()">← Edellinen</div>' +

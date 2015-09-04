@@ -157,9 +157,9 @@
         "stonehenge": {
             "name": "Stonehenge",
             "year": "2005",
-            "size": "",
-            "materials": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "size": "Korkeus 15cm, Leveys 70cm, Syvyys 70cm",
+            "materials": "Vaahtomuovi, styroksi, kuumaliima, akryylivärit",
+            "description": "Työ Stonehengestä on melko tarkka pienoismalli Englannin Wiltshiressa sijaitsevasta esihistoriallisesta monumentista. Työn kivipaasit on tehty vaahtomuovista ja maalattu akryyliväreillä harmaiksi. Työn pohjana on myös akryyliväreillä värjätty styroksilevy, johon vaahtomuovikivet on kiinnitetty kuumaliimalla. \n\nKuumaliiman käyttö työssä ei ollut täysin ongelmatonta, sillä suoraan kuumaliimapistoolista ulos tuleva sula kuumaliima on niin kuumaa, että se sulattaa styroksia. Tavallisen liiman käyttö taas ei toiminut, sillä se ei pitänyt vaahtomuovia kunnolla kiinni styroksissa. Niinpä kuumaliima piti ensin pursottaa pistoolista vaahtomuoviin, antaa sen hetki jäähtyä vaahtomuovissa ja sen jälkeen painaa kiinni styroksiin. Tässäkin piti olla tarkkana, ettei kuumaliima jäähdy liikaa, jolloin se ei enää liimautuisikaan styroksiin.",
             "images": [
                 {
                     "small": "images/stonehenge/stonehenge1-small.JPG",
@@ -224,7 +224,7 @@
             "year": "2008",
             "size": "Korkeus 75cm, Leveys 30cm, Syvyys 30cm",
             "materials": "Puutikut, Kuumaliima",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "description": "Toiseksi viimeinen kuvataidekoulussa tekemäni työ, jonka tekeminen kesti lähes koko lukuvuoden. Työssä on käytetty kaksia erikokoisia puutikkuja ja niitä on leikelty sopivan kokoisiksi saksilla. Tikkujen kiinnitykseen on käytetty kuumaliimaa, josta jäävät seittimäiset kuumaliimanauhat näkyvät selvästi lähikuvista. Eiffel-tornin ristikkorakenne tekee työstä hyvin vankkatekoisen ja sen pystyykin nostamaan ilmaan yläosasta kiinni pitäen.",
             "images": [
                 {
                     "small": "images/eiffel/eiffel1-small.JPG",
@@ -287,8 +287,8 @@
         "akupaa": {
             "name": "Aku pää",
             "year": "2006",
-            "size": "",
-            "materials": "",
+            "size": "Korkeus 37cm, Leveys 45cm, Syvyys 38cm",
+            "materials": "Savi, laasti, puulevy, puutikut, kapalevy, kuumaliima",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -467,9 +467,9 @@
         "puumaja": {
             "name": "Puumaja",
             "year": "2005",
-            "size": "",
-            "materials": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "size": "Korkeus n. 75cm, Leveys 60cm, Syvyys 60cm",
+            "materials": "Puun oksat, puutikut, kuumaliima, nauha",
+            "description": "Puumaja ei ole välttämättä hienoin tai monimutkaisin tekemäni työ, mutta työstä otetut kuvat ovat mielestäni onnistuneita. Spottivalojen luomat varjot violetille taustalle luovat kuviin dramaattisuutta. Työ itsessään on melko yksinkertainen: puun oksat on ruuvattu kiinni puiseen pohjalevyyn ja puutikuista tehdyt tasot on kiinnitetty oksiin kuumaliimalla.",
             "images": [
                 {
                     "small": "images/puumaja/puumaja1-small.JPG",
@@ -502,14 +502,6 @@
                     "ratio": "horizontal",
                     "strictratio": "075",
                     "caption": "Kuva 4. This is a test caption"
-                },
-                {
-                    "small": "images/puumaja/puumaja5-small.JPG",
-                    "medium": "images/puumaja/puumaja5.JPG",
-                    "large": "images/puumaja/puumaja5-large.JPG",
-                    "ratio": "vertical",
-                    "strictratio": "075",
-                    "caption": "Kuva 5. This is a test caption"
                 }
             ]
         }
