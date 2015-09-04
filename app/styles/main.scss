@@ -10,7 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   height: 100%;
-
+  position: relative;
 }
 
 h1 {
@@ -551,7 +551,7 @@ footer {
 
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .row {
     border-bottom: none;
     height: 100%;
