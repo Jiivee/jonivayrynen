@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('jonivayrynenApp')
-  .controller('ArtworkCtrl', function ($scope, $http, $routeParams, $document, usSpinnerService) {
+  .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService) {
     $scope.artworkname = $routeParams.artworkname;
     $scope.categoryname = $routeParams.categoryname;
     $http.get('artwork/artwork.json').success(function(data) {

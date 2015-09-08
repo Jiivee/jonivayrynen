@@ -62,13 +62,14 @@ a:hover {
 /* Header */
 
 header {
-  padding: 8px 0;
+  padding: 0;
   margin-bottom: 10px;
   border-bottom: 1px solid #999;
   background-color: #666;
 
   .header-container {
-    padding: 0 10px;
+    height: 52px;
+    padding: 0 15px;
     font-size: 24px;
     font-weight: 400;
     -ms-transform: uppercase;
@@ -76,30 +77,57 @@ header {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     color: #eee !important;
-    /*height: 41px;*/
+    position: relative;
 
-    .site-logo {
-      height: 36px;
-      margin-bottom: -5px;
-      padding-right: 5px;
+    .logo-name {
+      display: inline-block;
+      height: 52px;
+      position: absolute;
+
+      .site-logo {
+        height: 36px;
+        margin-bottom: -5px;
+        padding: 0 5px 0 7px;
+      }
+
+      .site-name {
+        font-size: 11px;
+        color: #fff;
+        margin-top: -3px;
+      }
     }
 
-    .sitename {
-      font-size: 28px;
-      color: #eee;
-    }
 
-    .header-item {
-      padding-left: 10px;
-      color: #eee;
-    }
+    nav {
+      display: inline-block;
+      height: 52px;
+      position: absolute;
+      padding-left: 70px;
+      line-height: 1.4;
 
-    .header-item:hover {
-      color: #bbb;
-    }
+      .menu-container {
+        display: none;
+      }
 
-    .selectedheader {
-      color: #044c89;
+      ul {
+        padding: 10px;
+        margin: 0 auto;
+
+
+        li {
+          padding-left: 10px;
+          display: inline;
+          float: left;
+
+          a {
+            color: #eee;
+          }
+
+          a:hover {
+            color: #bbb;
+          }
+        }
+      }
     }
   }
 }
@@ -731,6 +759,60 @@ footer {
     overflow: hidden;
   }
 }
+
+
+  header {
+
+    .header-container {
+
+      nav {
+          border-bottom: 0;
+          width: 100%;
+          padding-left: 0;
+          position: relative;
+
+        ul {
+          display: none;
+          height: auto;
+        }
+
+        .menu-container {
+          display: inline-block;
+          float: right;
+          padding-top: 5px;
+
+          .menu-text {
+            display: inline-block;
+            font-size: 16px;
+          }
+
+          .menu-icon {
+            display: inline-block;
+            width: 27px;
+            height: 30px;
+            line-height: 26px;
+            vertical-align: middle;
+          }
+        }
+
+        .showbar {
+          display: block;
+          padding: 60px 0 0 0;
+        }
+
+        .barlines {
+          float: none;
+          display: block;
+          padding-left: 0;
+        }
+      }
+    }
+    .navbar {
+      height: 180px;
+      width: 100%;
+      background-color: #777;
+    }
+  }
 
 
 

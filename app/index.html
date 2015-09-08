@@ -21,17 +21,30 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <header>
+    <header ng-controller="HeaderController">
       <div class="centerer">
         <div class="header-container">
-          <a href="#/"><img class="site-logo" src="/images/logo2.png"></a>
-          <a href="#/"><span class="sitename">Joni Väyrynen</span></a>
-          <a href="#/"><span class="header-item">Etusivu</span></a>
-          <a ng-href="#/rakennelmat"><span class="header-item" ng-class="{selectedheader: categoryname == 'rakennelmat'}">Rakennelmat</span></a>
-          <a ng-href="#/akuankkapiirustukset"><span class="header-item">Aku Ankka piirustukset</span></a>
-          <a ng-href="#/muut"><span class="header-item">Muut</span></a>
-          <a ng-href="#/cv"><span class="header-item">CV</span></a>
+          <div class="logo-name">
+            <a href="#/"><img class="site-logo" src="/images/logo2.png"></a>
+            <a href="#/"><div class="site-name">Joni Väyrynen</div></a>
+          </div>
+
+          <nav>
+            <div class="menu-container" ng-click="showNavbar()">
+              <div class="menu-text">Menu</div>
+              <img class="menu-icon"src="/images/nav-icon.png">
+            </div>
+            <ul ng-class="{showbar: navbaron}">
+              <li ng-class="{barlines: navbaron}"><a href="#/">Etusivu</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-href="#/rakennelmat">Rakennelmat</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-href="#/akuankkapiirustukset">Aku Ankka piirustukset</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-href="#/muut">Muut</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-href="#/cv">CV</a></li>
+            </ul>
+          </nav>
+
         </div>
+        <div ng-show="navbaron" class="navbar"></div>
       </div>
     </header>
     <div class="main-content">
@@ -84,6 +97,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/header.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/category.js"></script>
         <script src="scripts/controllers/artwork.js"></script>

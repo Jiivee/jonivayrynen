@@ -23,19 +23,19 @@ angular
     $routeProvider
       .when('/cv', {
         templateUrl: 'views/cv.html',
-        controller: 'CvCtrl'
+        controller: 'CvController'
       })
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainController'
       })
       .when('/:categoryname', {
         templateUrl: 'views/category.html',
-        controller: 'CategoryCtrl'
+        controller: 'CategoryController'
       })
       .when('/:categoryname/:artworkname', {
         templateUrl: 'views/artwork.html',
-        controller: 'ArtworkCtrl'
+        controller: 'ArtworkController'
       })
       .otherwise({
         redirectTo: '/'
