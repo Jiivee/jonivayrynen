@@ -2,6 +2,8 @@
 
 angular.module('jonivayrynenApp')
   .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService) {
+    var bodyRef = angular.element( $document[0].body );
+    bodyRef.removeClass('stop-scroll');
     $scope.artworkname = $routeParams.artworkname;
     $scope.categoryname = $routeParams.categoryname;
     $http.get('artwork/artwork.json').success(function(data) {
@@ -21,15 +23,13 @@ angular.module('jonivayrynenApp')
       return nameofcategory;
     };
 
-
-  var bodyRef = angular.element( $document[0].body );
-  $scope.imgData = '';
-  $scope.modalShown = false;
-  $scope.toggleModal = function(imagedata) {
-    usSpinnerService.spin('spinner-1');
-    bodyRef.addClass('stop-scroll');
-    $scope.modalShown = !$scope.modalShown;
-    $scope.imgData = imagedata;
-    $scope.allImages = $scope.artwork.images;
-  };
+    $scope.imgData = '';
+    $scope.modalShown = false;
+    $scope.toggleModal = function(imagedata) {
+      usSpinnerService.spin('spinner-1');
+      bodyRef.addClass('stop-scroll');
+      $scope.modalShown = !$scope.modalShown;
+      $scope.imgData = imagedata;
+      $scope.allImages = $scope.artwork.images;
+    };
   });

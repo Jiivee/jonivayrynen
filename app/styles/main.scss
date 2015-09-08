@@ -57,6 +57,7 @@ a:hover {
 .stop-scroll {
   overflow: hidden;
   -ms-touch-action: none;
+  touch-action: none;
 }
 
 
@@ -595,6 +596,7 @@ footer {
   .row {
     border-bottom: none;
     height: 100%;
+    padding: 0;
 
     .image-part {
       width: 100%;
@@ -766,11 +768,16 @@ footer {
 
     .header-container {
 
+      .logo-name {
+        z-index: 101;
+      }
+
       nav {
           border-bottom: 0;
           width: 100%;
           padding-left: 0;
           position: relative;
+          z-index: 100;
 
         ul {
           display: none;
@@ -781,6 +788,11 @@ footer {
           display: inline-block;
           float: right;
           padding-top: 5px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          cursor: pointer;
 
           .menu-text {
             display: inline-block;
