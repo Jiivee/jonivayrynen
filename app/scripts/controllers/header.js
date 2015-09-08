@@ -6,4 +6,8 @@ angular.module('jonivayrynenApp')
     $scope.showNavbar = function () {
       $scope.navbaron = !$scope.navbaron;
     };
+
+    $scope.hideNavbar = function () {
+      $scope.navbaron = false;
+    };
   });
