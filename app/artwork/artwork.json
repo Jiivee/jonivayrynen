@@ -287,7 +287,7 @@
         "akupaa": {
             "name": "Aku pää",
             "year": "2006",
-            "size": "Korkeus 37cm, Leveys 45cm, Syvyys 38cm",
+            "size": "",
             "materials": "Savi, laasti, puulevy, puutikut, kapalevy, kuumaliima",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
@@ -328,9 +328,9 @@
         "tiilitalo": {
             "name": "Tiilitalo",
             "year": "2006",
-            "size": "",
-            "materials": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "size": "Korkeus 37cm, Leveys 45cm, Syvyys 38cm",
+            "materials": "Savi, laasti, kapalevy, puutikut, kuumaliima",
+            "description": "Koko kuvataidekoulun ajan olin halunnut rakentaa jotain tiilistä ja laastista. Halu tähän lähti siitä, että aikanaan esikoulussa tein pienistä tiilistä (koko noin 2cmX1cmX0,5cm) tiilitalon. Vuosien kuluessa pieni tiilitaloni mureni ja halusin siis tehdä uuden. Ongelmana oli vain, että pieniä tiiliä ei oikein saanut mistään. Ainoaksi vaihtoehdoksi jäi siis tiilien tekeminen itse. \n\nHyvin pienien tiilten tekeminen olisi ollut vaikeaa, joten jouduin tyytymään hieman isomman kokoisiin (4,5cmX2cmX1cm). Tiilten tekoa varten tein pitkistä puutikuista kehikon, jonka väleihin painoin punasavea. Seuraavaksi savipalaset (tiilet) piti irrottaa varovasti kehikosta, jotta niiden muoto ei muuttuisi vaan ne pysyisivät kaikki samankokoisina. Lopuksi savitiilet poltettiin polttouunissa. \n\nTiilitalon savitiilet on siis muurattu kiinni toisiinsa laastilla. Talon sisäpuoli taas on päällystetty kapalevyllä, joka on kiinnitetty tiileihin kuumaliimalla. Katon, jonka pystyy nostamaan pois, pohja on kapalevyä ja ulospäin näkyvät osat erikoikoisia puutikkuja. Katon päällysosassa näkyvät pitkät puutikut ovat samoja joita käytin tiilikehikon tekemiseen.",
             "images": [
                 {
                     "small": "images/tiilitalo/tiilitalo1-small.JPG",
@@ -418,9 +418,9 @@
         "huussi": {
             "name": "Huussi",
             "year": "2005",
-            "size": "",
-            "materials": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "size": "Korkeus 30cm, Leveys 18cm, Syvyys 22cm",
+            "materials": "Puutikut, pahvi, kapalevy, muoviputki, kuumaliima",
+            "description": "Tällä huussipienoismallilla osallistuin muistaakseni johonkin huussiaiheiseen suunnittelukilpailuun. Palkintoja ei tullut, mutta työni onkin aika perinteisen suomalaisen huussin näköinen. Työn kehikkona on vahvaa aaltopahvia, joka on päällystetty kuumaliimalla kiinnitetyillä puutikuilla. Sisäpuolelta huussi on vuorattu kapalevyllä. Työssä on muutama hauska yksityiskohta kuten kapalevyn sisäosasta tehty wc-istuin, rautalangan ympärille kierretty vessapaperi ja muoviputkesta tehty ränni.",
             "images": [
                 {
                     "small": "images/huussi/huussi1-small.JPG",
