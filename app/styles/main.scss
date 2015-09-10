@@ -120,19 +120,18 @@ header {
           padding-left: 10px;
           display: inline;
           float: left;
+          color: #eee;
+          cursor: pointer;
+        }
 
-          a {
-            color: #eee;
-          }
-
-          a:hover {
+        li:hover {
             color: #bbb;
-          }
         }
       }
     }
   }
 }
+
 
 
 .test1 {
