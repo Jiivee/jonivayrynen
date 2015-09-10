@@ -287,8 +287,8 @@
         "akupaa": {
             "name": "Aku pää",
             "year": "2006",
-            "size": "",
-            "materials": "Savi, laasti, puulevy, puutikut, kapalevy, kuumaliima",
+            "size": "Korkeus 16cm, Leveys 17cm, Syvyys 21cm",
+            "materials": "Valkosavi, värillinen lasite",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
@@ -385,8 +385,8 @@
         "kolikko": {
             "name": "Kolikko",
             "year": "2007",
-            "size": "",
-            "materials": "",
+            "size": "Halkaisija 30cm, paksuus 1,5cm",
+            "materials": "Kipsi, akryylimaali",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
