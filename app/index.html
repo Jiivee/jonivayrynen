@@ -35,8 +35,8 @@
               <img class="menu-icon" src="/images/navicon.png">
             </div>
             <ul ng-class="{showbar: navbaron}">
-              <li ng-class="{barlines: navbaron}"><a ng-href="#/">Etusivu</a></li>
-              <li ng-class="{barlines: navbaron}"><a ng-href="#/rakennelmat" ng-click="hideNavbar()">Rakennelmat</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-click="hideNavbar('/')">Etusivu</a></li>
+              <li ng-class="{barlines: navbaron}"><a ng-click="hideNavbar('/rakennelmat')">Rakennelmat</a></li>
               <li ng-class="{barlines: navbaron}"><a ng-click="hideNavbar()" ng-href="#/akuankkapiirustukset">Aku Ankka piirustukset</a></li>
               <li ng-class="{barlines: navbaron}"><a ng-click="hideNavbar()" ng-href="#/muut">Muut</a></li>
               <li ng-class="{barlines: navbaron}"><a ng-click="hideNavbar()" ng-href="#/cv">CV</a></li>
