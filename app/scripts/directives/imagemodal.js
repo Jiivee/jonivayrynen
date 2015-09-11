@@ -15,6 +15,7 @@ angular.module('jonivayrynenApp.directives', [])
         scope.hideModal = function() {
           var bodyRef = angular.element( $document[0].body );
           bodyRef.removeClass('stop-scroll');
+          document.ontouchstart = function(){ return true; };
           scope.show = false;
           usSpinnerService.stop('spinner-1');
         };

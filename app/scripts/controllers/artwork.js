@@ -4,6 +4,7 @@ angular.module('jonivayrynenApp')
   .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService) {
     var bodyRef = angular.element( $document[0].body );
     bodyRef.removeClass('stop-scroll');
+    document.ontouchstart = function(){ return true; };
     $scope.artworkname = $routeParams.artworkname;
     $scope.categoryname = $routeParams.categoryname;
     $http.get('artwork/artwork.json').success(function(data) {
@@ -28,7 +29,7 @@ angular.module('jonivayrynenApp')
     $scope.toggleModal = function(imagedata) {
       usSpinnerService.spin('spinner-1');
       bodyRef.addClass('stop-scroll');
-      document.ontouchstart = function(e){ e.preventDefault(); }
+      document.ontouchstart = function(e){ e.preventDefault(); };
       $scope.modalShown = !$scope.modalShown;
       $scope.imgData = imagedata;
       $scope.allImages = $scope.artwork.images;
