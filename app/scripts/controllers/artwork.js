@@ -28,6 +28,7 @@ angular.module('jonivayrynenApp')
     $scope.toggleModal = function(imagedata) {
       usSpinnerService.spin('spinner-1');
       bodyRef.addClass('stop-scroll');
+      document.ontouchstart = function(e){ e.preventDefault(); }
       $scope.modalShown = !$scope.modalShown;
       $scope.imgData = imagedata;
       $scope.allImages = $scope.artwork.images;
