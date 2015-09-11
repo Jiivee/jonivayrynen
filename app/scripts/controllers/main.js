@@ -25,6 +25,16 @@ angular.module('jonivayrynenApp')
           $scope.allDrawingImages.push(imagesP[j]);
         }
       }
+
+      $scope.allOtherImages = [];
+      var other = 'muut';
+      var others = data[other];
+      for (var o in others) {
+        var imagesO = others[o].images;
+        for (var k = 0; k < imagesO.length; k++) {
+          $scope.allOtherImages.push(imagesO[k]);
+        }
+      }
     });
 
   });
