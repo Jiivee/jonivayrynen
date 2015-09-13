@@ -21,32 +21,33 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <header ng-controller="HeaderController">
-      <div class="centerer">
-        <div class="header-container">
-          <div class="logo-name">
-            <a href="#/"><img class="site-logo" src="/images/logo2.png"></a>
-            <a href="#/"><div class="site-name">Joni Väyrynen</div></a>
-          </div>
-
-          <nav>
-            <div class="menu-container" ng-click="showNavbar()">
-              <div class="menu-text">Menu</div>
-              <img class="menu-icon" src="/images/navicon.png">
+    <div ng-controller="HeaderController">
+      <header>
+        <div class="centerer">
+          <div class="header-container">
+            <div class="logo-name">
+              <a href="#/"><img class="site-logo" src="/images/logo2.png"></a>
+              <a href="#/"><div class="site-name">Joni Väyrynen</div></a>
             </div>
-            <ul ng-class="{showbar: navbaron}">
-              <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/')">Etusivu</li>
-              <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/rakennelmat')">Rakennelmat</li>
-              <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/akuankkapiirustukset')">Aku Ankka piirustukset</li>
-              <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/muut')">Muut</li>
-              <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/cv')">CV</li>
-            </ul>
-          </nav>
 
+            <nav>
+              <div class="menu-container" ng-click="showNavbar()">
+                <div class="menu-text">Menu</div>
+                <img class="menu-icon" src="/images/navicon.png">
+              </div>
+              <ul ng-class="{showbar: navbaron}">
+                <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/')">Etusivu</li>
+                <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/rakennelmat')">Rakennelmat</li>
+                <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/akuankkapiirustukset')">Aku Ankka piirustukset</li>
+                <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/muut')">Muut</li>
+                <li ng-class="{barlines: navbaron}" ng-click="hideNavbar('/cv')">CV</li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div ng-show="navbaron" class="navbar"></div>
-      </div>
-    </header>
+      </header>
+      <div ng-show="navbaron" class="navbar"></div>
+    </div>
     <div class="main-content">
       <div class="centerer">
         <div class="main-container">
