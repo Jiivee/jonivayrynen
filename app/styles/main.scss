@@ -1,6 +1,7 @@
 // bower:scss
 // endbower
 $lhl: 1.6em;
+$base-color: #607D8B;
 
 html {
   height: 100%;
@@ -28,7 +29,13 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -68,6 +75,7 @@ header {
   margin-bottom: 10px;
   border-bottom: 1px solid #999;
   background-color: #666;
+  background-color: darken( $base-color, 13% );
 
   .header-container {
     height: 52px;
@@ -256,8 +264,15 @@ header {
   .sidebar-container {
     padding: 45px 0 0 15px;
 
+    .info-box {
+      min-height: 400px;
+
+      .info-item {
+        padding-left: 10px;
+      }
+    }
+
     .other-works {
-      padding-top: 200px;
 
       .sidebar-item {
         border-bottom: 1px solid #ddd;
@@ -272,8 +287,12 @@ header {
         .work-name {
           display: inline-block;
           position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
           left: 115px;
-          font-size: 18px;
+          font-size: 20px;
         }
       }
     }
@@ -336,7 +355,7 @@ footer {
   margin-top: 15px;
   padding: 8px 0;
   border-top: 1px solid #bbb;
-  background-color: #888;
+  background-color: darken( $base-color, 5% );
   width: 100%;
   display: inline-block;
 
@@ -668,17 +687,8 @@ footer {
     .sidebar-container {
       padding: 0 10px;
 
-      .other-works {
-        padding-top: 200px;
-
-        .sidebar-item {
-
-          .sidebar-image {
-          }
-
-          .work-name {
-          }
-        }
+      .info-box {
+        min-height: 0;
       }
     }
   }

@@ -3,7 +3,7 @@
         "rahasailio": {
             "name": "Rahasäiliö",
             "year": "2009",
-            "size": "Korkeus 100cm, Leveys 100cm, Syvyys 100cm",
+            "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
             "materials": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
@@ -124,8 +124,8 @@
         "pienirahasailio": {
             "name": "Pieni rahasäiliö",
             "year": "2005",
-            "size": "Korkeus 20cm, Leveys 38cm, Syvyys 44cm",
-            "materials": "Styroksi, kanahäkkiverkko, paperimassa, liisteri, akryylivärit",
+            "size": ["Korkeus 20cm", "Leveys 38cm", "Syvyys 44cm"],
+            "materials": ["Styroksi", "kanahäkkiverkko", "paperimassa", "liisteri", "akryylivärit"],
             "description": "Tätä työtä tehdessäni en vielä tiennyt että muutama vuosi myöhemmin tekisin kuvataidekoulun päättötyönä suuremman version Roope Ankan rahasäiliöstä, mutta työ osoittaa, että jo tuolloin kiinnostukseni aiheeseen oli suuri. Tässä työssä rahasäiliö on vain 7-8 senttimetrin kokoinen kuutio rahasäiliökukkulan ollessa suuremmassa osassa. Työssä rahasäiliö on tehty päällekkäin liimatuista styroksilevyistä. Kukkula taas on muotoiltu kananhäkkiverkosta, jonka päälle on laitettu paperimassaa. Lopuksi työ on maalattu akryyliväreillä.",
             "images": [
                 {
@@ -157,8 +157,8 @@
         "stonehenge": {
             "name": "Stonehenge",
             "year": "2005",
-            "size": "Korkeus 15cm, Leveys 70cm, Syvyys 70cm",
-            "materials": "Vaahtomuovi, styroksi, kuumaliima, akryylivärit",
+            "size": ["Korkeus 15cm", "Leveys 70cm", "Syvyys 70cm"],
+            "materials": ["Vaahtomuovi", "styroksi", "kuumaliima", "akryylivärit"],
             "description": "Työ Stonehengestä on melko tarkka pienoismalli Englannin Wiltshiressa sijaitsevasta esihistoriallisesta monumentista. Työn kivipaasit on tehty vaahtomuovista ja maalattu akryyliväreillä harmaiksi. Työn pohjana on myös akryyliväreillä värjätty styroksilevy, johon vaahtomuovikivet on kiinnitetty kuumaliimalla. \n\nKuumaliiman käyttö työssä ei ollut täysin ongelmatonta, sillä suoraan kuumaliimapistoolista ulos tuleva sula kuumaliima on niin kuumaa, että se sulattaa styroksia. Tavallisen liiman käyttö taas ei toiminut, sillä se ei pitänyt vaahtomuovia kunnolla kiinni styroksissa. Niinpä kuumaliima piti ensin pursottaa pistoolista vaahtomuoviin, antaa sen hetki jäähtyä vaahtomuovissa ja sen jälkeen painaa kiinni styroksiin. Tässäkin piti olla tarkkana, ettei kuumaliima jäähdy liikaa, jolloin se ei enää liimautuisikaan styroksiin.",
             "images": [
                 {
@@ -222,8 +222,8 @@
         "eiffel": {
             "name": "Eiffel torni",
             "year": "2008",
-            "size": "Korkeus 75cm, Leveys 30cm, Syvyys 30cm",
-            "materials": "Puutikut, Kuumaliima",
+            "size": ["Korkeus 75cm", "Leveys 30cm", "Syvyys 30cm"],
+            "materials": ["Puutikut", "Kuumaliima"],
             "description": "Toiseksi viimeinen kuvataidekoulussa tekemäni työ, jonka tekeminen kesti lähes koko lukuvuoden. Työssä on käytetty kaksia erikokoisia puutikkuja ja niitä on leikelty sopivan kokoisiksi saksilla. Tikkujen kiinnitykseen on käytetty kuumaliimaa, josta jäävät seittimäiset kuumaliimanauhat näkyvät selvästi lähikuvista. Eiffel-tornin ristikkorakenne tekee työstä hyvin vankkatekoisen ja sen pystyykin nostamaan ilmaan yläosasta kiinni pitäen.",
             "images": [
                 {
@@ -287,8 +287,8 @@
         "akupaa": {
             "name": "Aku pää",
             "year": "2006",
-            "size": "Korkeus 16cm, Leveys 17cm, Syvyys 21cm",
-            "materials": "Valkosavi, värillinen lasite",
+            "size": ["Korkeus 16cm", "Leveys 17cm", "Syvyys 21cm"],
+            "materials": ["Valkosavi", "värillinen lasite"],
             "description": "Tämä valkosavesta tehty Aku Ankan pää on mielestäni onnistunut teos poltossa syntyneestä halkeamasta huolimatta. Työ selvisi ensimmäisestä poltosta hyvin, mutta valitettavasti lasitepoltossa syntyi Akun nokkaan pieni halkeama. Työssä on käytetty neljää eriväristä lasitetta: oranssia, sinistä, mustaa sekä väritöntä.",
             "images": [
                 {
@@ -328,8 +328,8 @@
         "tiilitalo": {
             "name": "Tiilitalo",
             "year": "2006",
-            "size": "Korkeus 37cm, Leveys 45cm, Syvyys 38cm",
-            "materials": "Savi, laasti, kapalevy, puutikut, kuumaliima",
+            "size": ["Korkeus 37cm", "Leveys 45cm", "Syvyys 38cm"],
+            "materials": ["Savi", "laasti", "kapalevy", "puutikut", "kuumaliima"],
             "description": "Koko kuvataidekoulun ajan olin halunnut rakentaa jotain tiilistä ja laastista. Halu tähän lähti siitä, että aikanaan esikoulussa tein pienistä tiilistä (koko noin 2cmX1cmX0,5cm) tiilitalon. Vuosien kuluessa pieni tiilitaloni mureni ja halusin siis tehdä uuden. Ongelmana oli vain, että pieniä tiiliä ei oikein saanut mistään. Ainoaksi vaihtoehdoksi jäi siis tiilien tekeminen itse. \n\nHyvin pienien tiilten tekeminen olisi ollut vaikeaa, joten jouduin tyytymään hieman isomman kokoisiin (4,5cmX2cmX1cm). Tiilten tekoa varten tein pitkistä puutikuista kehikon, jonka väleihin painoin punasavea. Seuraavaksi savipalaset (tiilet) piti irrottaa varovasti kehikosta, jotta niiden muoto ei muuttuisi vaan ne pysyisivät kaikki samankokoisina. Lopuksi savitiilet poltettiin polttouunissa. \n\nTiilitalon savitiilet on siis muurattu kiinni toisiinsa laastilla. Talon sisäpuoli taas on päällystetty kapalevyllä, joka on kiinnitetty tiileihin kuumaliimalla. Katon, jonka pystyy nostamaan pois, pohja on kapalevyä ja ulospäin näkyvät osat erikoikoisia puutikkuja. Katon päällysosassa näkyvät pitkät puutikut ovat samoja joita käytin tiilikehikon tekemiseen.",
             "images": [
                 {
@@ -385,8 +385,8 @@
         "kolikko": {
             "name": "Kolikko",
             "year": "2007",
-            "size": "Halkaisija 30cm, paksuus 1,5cm",
-            "materials": "Kipsi, akryylimaali",
+            "size": ["Halkaisija 30cm", "Paksuus 1,5cm"],
+            "materials": ["Kipsi", "akryylimaali"],
             "description": "Tehtävänä oli ensin muotoilla savesta muotti kipsivalulle. Mielestäni kolikko oli oiva idea työhön ja lopulta päädyin kahden euron kolikkoon. Muotin tuli olla peilikuva oikeasta rahasta, joten tarvitsin malliksi peilikuvan kahden euron kolikosta. Kolikossa ulospäin työntyvien osien tuli olla muotissa kaiverruksia, mikä oli työn tekemisen kannalta helpottava asia: savilevyn kaivertaminen on huomattavasti helpompaa kun savipalasten lisääminen savilevyyn. \n\nMuotin oltua valmis se poltettiin saviuunissa jonka jälkeen sitä pystyi käyttämään kipsivalujen tekemiseen. Tein muotilla neljä valua, joista toiset onnistuivat paremmin. Kolikot eivät suinkaan olleet heti valmiita valujen jälkeen vaan niitä piti vielä hioa vastaamaan paremmin aitoa kolikkoa. Lopuksi maalasin kolikot akryyliväreillä. \n\nMallina ollut kahden euron kolikko on vanhemman mallin (ennen vuotta 2007 painettu) kolikko, jossa ei näy koko Euroopan karttaa vaan vain vuoteen 1995 mennessä Euroopan Unioniin liittyneet maat.",
             "images": [
                 {
@@ -418,8 +418,8 @@
         "huussi": {
             "name": "Huussi",
             "year": "2005",
-            "size": "Korkeus 30cm, Leveys 18cm, Syvyys 22cm",
-            "materials": "Puutikut, pahvi, kapalevy, muoviputki, kuumaliima",
+            "size": ["Korkeus 30cm", "Leveys 18cm", "Syvyys 22cm"],
+            "materials": ["Puutikut", "pahvi", "kapalevy", "muoviputki", "kuumaliima"],
             "description": "Tällä huussipienoismallilla osallistuin muistaakseni johonkin huussiaiheiseen suunnittelukilpailuun. Palkintoja ei tullut, mutta työni onkin aika perinteisen suomalaisen huussin näköinen. Työn kehikkona on vahvaa aaltopahvia, joka on päällystetty kuumaliimalla kiinnitetyillä puutikuilla. Sisäpuolelta huussi on vuorattu kapalevyllä. Työssä on muutama hauska yksityiskohta kuten kapalevyn sisäosasta tehty wc-istuin, rautalangan ympärille kierretty vessapaperi ja muoviputkesta tehty ränni.",
             "images": [
                 {
@@ -467,8 +467,8 @@
         "puumaja": {
             "name": "Puumaja",
             "year": "2005",
-            "size": "Korkeus n. 75cm, Leveys 60cm, Syvyys 60cm",
-            "materials": "Puun oksat, puutikut, kuumaliima, nauha",
+            "size": ["Korkeus n. 75cm", "Leveys 60cm", "Syvyys 60cm"],
+            "materials": ["Puun oksat", "puutikut", "kuumaliima", "nauha"],
             "description": "Puumaja ei ole välttämättä hienoin tai monimutkaisin tekemäni työ, mutta työstä otetut kuvat ovat mielestäni onnistuneita. Spottivalojen luomat varjot violetille taustalle luovat kuviin dramaattisuutta. Työ itsessään on melko yksinkertainen: puun oksat on ruuvattu kiinni puiseen pohjalevyyn ja puutikuista tehdyt tasot on kiinnitetty oksiin kuumaliimalla.",
             "images": [
                 {

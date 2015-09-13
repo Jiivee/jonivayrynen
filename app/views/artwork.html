@@ -21,10 +21,20 @@
 
 <div class="sidebar">
   <div class="sidebar-container">
-    <h3>Tietoja</h3>
-    <div>Vuosi: {{artwork.year}}</div>
-    <div>Koko: {{artwork.size}}</div>
-    <div>Materiaalit: {{artwork.materials}}</div>
+    <div class="info-box">
+      <h3>Tietoja</h3>
+      <h4>Vuosi:</h4>
+      <div class="info-item">{{artwork.year}}</div>
+      <h4>Koko:</h4>
+      <div class="info-item" ng-repeat="size in artwork.size">
+        {{size}}
+      </div>
+      <h4>Materiaalit:</h4>
+      <div class="info-item" ng-repeat="material in artwork.materials">
+        {{material}}
+      </div>
+    </div>
+
     <div class="other-works">
       <h3>Muut {{getNameOfCategory(categoryname)}}</h3>
       <div ng-repeat="(key, value) in category" class="sidebar-item">
