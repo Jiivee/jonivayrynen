@@ -2,6 +2,8 @@
 // endbower
 $lhl: 1.6em;
 $base-color: #607D8B;
+$background-color: lighten($base-color, 47%);
+$bar-color: #fff;
 $header-color: darken($base-color, 13%);
 $footer-color: darken($base-color, 5%);
 $border-color: lighten($base-color, 35%);
@@ -19,6 +21,7 @@ body {
   height: 100%;
   position: relative;
   color: $text-color;
+  background-color: $background-color;
 }
 
 h1 {
@@ -156,17 +159,18 @@ header {
 }
 
 
-.welcome-area {
-  min-height: calc(100% - 58px);
-  width: 100%;
-  background-color: lighten($base-color, 30%);
+.top-description {
+  width: calc(100% - 30px);
+  padding: 5px 15px 0 15px;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
 }
 
 
 
 .main-content {
   min-height: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
 
   .main-container {
     padding: 0 15px 0 15px;
@@ -175,12 +179,15 @@ header {
 
 
 .mainbar {
-  width: 68%;
+  width: calc(68% - 16px);
   display: inline-block;
   float: left;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
+  margin-right: 16px;
 
   .mainbar-container {
-    padding-right: 10px;
+    padding: 5px 14px;
 
     .main-image {
       position: absolute;
@@ -255,9 +262,11 @@ header {
   width: 32%;
   display: inline-block;
   float: right;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
 
   .sidebar-container {
-    padding: 54px 0 0 15px;
+    padding: 54px 14px 0 14px;
 
     .info-box {
       min-height: 400px;
@@ -302,10 +311,13 @@ header {
 
 .row {
   display: block;
-  width: 100%;
+  width: calc(100% - 30px);
   height: 225px;
-  border-bottom: 1px solid $border-color;
-  padding: 20px 0;
+  //border-bottom: 1px solid $border-color;
+  padding: 19px 15px; //20px 0;
+  margin-bottom: 17px;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
 
   .image-part {
     width: 300px;
@@ -351,6 +363,7 @@ header {
 
 .row:last-child {
   border-bottom: none;
+  margin-bottom: 0;
 }
 
 
@@ -614,6 +627,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+  body {
+    background-color: $bar-color;
+  }
+
   h1 {
     padding-left: 10px;
   }
@@ -624,10 +641,15 @@ footer {
     }
   }
 
+  .top-description {
+    padding: 0;
+  }
+
   .row {
     border-bottom: none;
     height: 100%;
     padding: 0;
+    width: 100%;
 
     .image-part {
       width: 100%;
@@ -664,7 +686,7 @@ footer {
     display: block;
 
     .mainbar-container {
-      padding-right: 0;
+      padding: 0;
 
       .main-image {
         position: absolute;
