@@ -8,7 +8,7 @@
     <image-modal allimages='allImages' imagedata='imgData' show='modalShown'></image-modal>
 
 
-    <div class="small-images">
+    <div ng-if="artwork.images.length > 1" class="small-images">
       <div ng-repeat="image in artwork.images" class="small-image-container">
         <div class="small-image-content">
           <img class="small-image-{{image.ratio}}" ng-src="{{image.small}}" ng-click="toggleModal(image)">
@@ -23,15 +23,11 @@
   <div class="sidebar-container">
     <div class="info-box">
       <h3>Tietoja</h3>
-      <h4>Vuosi:</h4>
-      <div class="info-item">{{artwork.year}}</div>
-      <h4>Koko:</h4>
-      <div class="info-item" ng-repeat="size in artwork.size">
-        {{size}}
-      </div>
-      <h4>Materiaalit:</h4>
-      <div class="info-item" ng-repeat="material in artwork.materials">
-        {{material}}
+      <div ng-repeat="(key, value) in artwork.info">
+        <h4>{{getInfoName(key)}}<h4>
+        <div class="info-item" ng-repeat="item in value">
+          {{item}}
+        </div>
       </div>
     </div>
 

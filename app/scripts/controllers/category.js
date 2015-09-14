@@ -18,6 +18,9 @@ angular.module('jonivayrynenApp')
       else if (nameofcategory === 'akuankkapiirustukset') {
         return 'Aku Ankka piirustukset';
       }
+      else if (nameofcategory === 'muut') {
+        return 'Muut työt';
+      }
       return nameofcategory;
     };
   });

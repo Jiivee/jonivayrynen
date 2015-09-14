@@ -21,8 +21,26 @@ angular.module('jonivayrynenApp')
       else if (nameofcategory === 'akuankkapiirustukset') {
         return 'Aku Ankka piirustukset';
       }
+      else if (nameofcategory === 'muut') {
+        return 'Muut työt';
+      }
       return nameofcategory;
     };
+
+    $scope.getInfoName =function (value) {
+      if (value === 'year') {
+        return 'Vuosi:';
+      }
+      else if (value === 'size') {
+        return 'Koko:';
+      }
+      else if (value === 'materials') {
+        return 'Materiaalit:';
+      }
+      else if (value === 'technologies') {
+        return 'Tekniikat:';
+      }
+    }
 
     $scope.imgData = '';
     $scope.modalShown = false;
