@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('jonivayrynenApp')
-  .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService) {
+  .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService, $location) {
     var bodyRef = angular.element( $document[0].body );
     bodyRef.removeClass('stop-scroll');
     document.ontouchstart = function(){ return true; };
@@ -13,6 +13,7 @@ angular.module('jonivayrynenApp')
       $scope.artwork = data[$scope.categoryname][$scope.artworkname];
       $scope.allImages = data[$scope.categoryname][$scope.artworkname].images;
     });
+    $scope.currentPath = $location.path();
 
     $scope.getNameOfCategory = function (nameofcategory) {
       if (nameofcategory === 'rakennelmat') {
@@ -40,7 +41,7 @@ angular.module('jonivayrynenApp')
       else if (value === 'technologies') {
         return 'Tekniikat:';
       }
-    }
+    };
 
     $scope.imgData = '';
     $scope.modalShown = false;
