@@ -2,7 +2,6 @@
   <div class="top-description">
     <h1>{{getNameOfCategory(categoryname)}}</h1>
   </div>
-  <!--<div ng-include=" 'views/test.txt' "></div>-->
   <div ng-repeat="(key, artwork) in category" class="row">
     <a href="#/{{categoryname}}/{{key}}">
       <div class="image-part">
@@ -14,11 +13,8 @@
       <a href="#/{{categoryname}}/{{key}}">
         <h2>{{artwork.name}}</h2>
       </a>
-        <div class="large-text category-description">{{artwork.description}}</div>
-      <a href="#/{{categoryname}}/{{key}}">
-        <div class="read-more">Lue lisää</div>
-      </a>
-      </div>
+      <div class="large-text category-description" ng-include="artwork.description"></div>
+      <a href="#/{{categoryname}}/{{key}}" class="read-more">Lue lisää</a>
     </div>
   </div>
 </div>

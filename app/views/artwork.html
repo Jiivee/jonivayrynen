@@ -8,10 +8,7 @@
       </a>
 
     </div>
-    <div class="description">{{artwork.description}}</div>
-    <a target="_blank" href="/other/Kandi.pdf">KANDI</a>
-    <image-modal allimages='allImages' imagedata='imgData' show='modalShown'></image-modal>
-
+    <div class="description" ng-include="artwork.description"></div>
 
     <div ng-show="artwork.images.length > 1" class="small-images">
       <div ng-repeat="image in artwork.images" class="small-image-container">
@@ -20,6 +17,7 @@
         </div>
       </div>
     </div>
+    <image-modal allimages='allImages' imagedata='imgData' show='modalShown'></image-modal>
   </div>
 </div>
 

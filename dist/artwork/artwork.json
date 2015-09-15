@@ -7,7 +7,7 @@
                 "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
                 "materials": [""]
             },
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "description": "views/artwork/rahasailio.html",
             "images": [
                 {
                     "small": "images/rahasailio/rahasailio1-small.JPG",
@@ -130,7 +130,7 @@
                 "size": ["Korkeus 20cm", "Leveys 38cm", "Syvyys 44cm"],
                 "materials": ["Styroksi", "kanahäkkiverkko", "paperimassa", "liisteri", "akryylivärit"]
             },
-            "description": "Tätä työtä tehdessäni en vielä tiennyt että muutama vuosi myöhemmin tekisin kuvataidekoulun päättötyönä suuremman version Roope Ankan rahasäiliöstä, mutta työ osoittaa, että jo tuolloin kiinnostukseni aiheeseen oli suuri. Tässä työssä rahasäiliö on vain 7-8 senttimetrin kokoinen kuutio rahasäiliökukkulan ollessa suuremmassa osassa. Työssä rahasäiliö on tehty päällekkäin liimatuista styroksilevyistä. Kukkula taas on muotoiltu kananhäkkiverkosta, jonka päälle on laitettu paperimassaa. Lopuksi työ on maalattu akryyliväreillä.",
+            "description": "views/artwork/pienirahasailio.html",
             "images": [
                 {
                     "small": "images/pienirahasailio/pienirahasailio1-small.JPG",
@@ -165,7 +165,7 @@
                 "size": ["Korkeus 15cm", "Leveys 70cm", "Syvyys 70cm"],
                 "materials": ["Vaahtomuovi", "styroksi", "kuumaliima", "akryylivärit"]
             },
-            "description": "Työ Stonehengestä on melko tarkka pienoismalli Englannin Wiltshiressa sijaitsevasta esihistoriallisesta monumentista. Työn kivipaasit on tehty vaahtomuovista ja maalattu akryyliväreillä harmaiksi. Työn pohjana on myös akryyliväreillä värjätty styroksilevy, johon vaahtomuovikivet on kiinnitetty kuumaliimalla. \n\nKuumaliiman käyttö työssä ei ollut täysin ongelmatonta, sillä suoraan kuumaliimapistoolista ulos tuleva sula kuumaliima on niin kuumaa, että se sulattaa styroksia. Tavallisen liiman käyttö taas ei toiminut, sillä se ei pitänyt vaahtomuovia kunnolla kiinni styroksissa. Niinpä kuumaliima piti ensin pursottaa pistoolista vaahtomuoviin, antaa sen hetki jäähtyä vaahtomuovissa ja sen jälkeen painaa kiinni styroksiin. Tässäkin piti olla tarkkana, ettei kuumaliima jäähdy liikaa, jolloin se ei enää liimautuisikaan styroksiin.",
+            "description": "views/artwork/stonehenge.html",
             "images": [
                 {
                     "small": "images/stonehenge/stonehenge1-small.JPG",
@@ -232,7 +232,7 @@
                 "size": ["Korkeus 75cm", "Leveys 30cm", "Syvyys 30cm"],
                 "materials": ["Puutikut", "Kuumaliima"]
             },
-            "description": "Toiseksi viimeinen kuvataidekoulussa tekemäni työ, jonka tekeminen kesti lähes koko lukuvuoden. Työssä on käytetty kaksia erikokoisia puutikkuja ja niitä on leikelty sopivan kokoisiksi saksilla. Tikkujen kiinnitykseen on käytetty kuumaliimaa, josta jäävät seittimäiset kuumaliimanauhat näkyvät selvästi lähikuvista. Eiffel-tornin ristikkorakenne tekee työstä hyvin vankkatekoisen ja sen pystyykin nostamaan ilmaan yläosasta kiinni pitäen.",
+            "description": "views/artwork/eiffel.html",
             "images": [
                 {
                     "small": "images/eiffel/eiffel1-small.JPG",
@@ -299,7 +299,7 @@
                 "size": ["Korkeus 16cm", "Leveys 17cm", "Syvyys 21cm"],
                 "materials": ["Valkosavi", "värillinen lasite"]
             },
-            "description": "Tämä valkosavesta tehty Aku Ankan pää on mielestäni onnistunut teos poltossa syntyneestä halkeamasta huolimatta. Työ selvisi ensimmäisestä poltosta hyvin, mutta valitettavasti lasitepoltossa syntyi Akun nokkaan pieni halkeama. Työssä on käytetty neljää eriväristä lasitetta: oranssia, sinistä, mustaa sekä väritöntä.",
+            "description": "views/artwork/akupaa.html",
             "images": [
                 {
                     "small": "images/akupaa/akupaa1-small.JPG",
@@ -342,7 +342,7 @@
                 "size": ["Korkeus 37cm", "Leveys 45cm", "Syvyys 38cm"],
                 "materials": ["Savi", "laasti", "kapalevy", "puutikut", "kuumaliima"]
             },
-            "description": "Koko kuvataidekoulun ajan olin halunnut rakentaa jotain tiilistä ja laastista. Halu tähän lähti siitä, että aikanaan esikoulussa tein pienistä tiilistä (koko noin 2cmX1cmX0,5cm) tiilitalon. Vuosien kuluessa pieni tiilitaloni mureni ja halusin siis tehdä uuden. Ongelmana oli vain, että pieniä tiiliä ei oikein saanut mistään. Ainoaksi vaihtoehdoksi jäi siis tiilien tekeminen itse. \n\nHyvin pienien tiilten tekeminen olisi ollut vaikeaa, joten jouduin tyytymään hieman isomman kokoisiin (4,5cmX2cmX1cm). Tiilten tekoa varten tein pitkistä puutikuista kehikon, jonka väleihin painoin punasavea. Seuraavaksi savipalaset (tiilet) piti irrottaa varovasti kehikosta, jotta niiden muoto ei muuttuisi vaan ne pysyisivät kaikki samankokoisina. Lopuksi savitiilet poltettiin polttouunissa. \n\nTiilitalon savitiilet on siis muurattu kiinni toisiinsa laastilla. Talon sisäpuoli taas on päällystetty kapalevyllä, joka on kiinnitetty tiileihin kuumaliimalla. Katon, jonka pystyy nostamaan pois, pohja on kapalevyä ja ulospäin näkyvät osat erikoikoisia puutikkuja. Katon päällysosassa näkyvät pitkät puutikut ovat samoja joita käytin tiilikehikon tekemiseen.",
+            "description": "views/artwork/tiilitalo.html",
             "images": [
                 {
                     "small": "images/tiilitalo/tiilitalo1-small.JPG",
@@ -401,7 +401,7 @@
                 "size": ["Halkaisija 30cm", "Paksuus 1,5cm"],
                 "materials": ["Kipsi", "akryylimaali"]
             },
-            "description": "Tehtävänä oli ensin muotoilla savesta muotti kipsivalulle. Mielestäni kolikko oli oiva idea työhön ja lopulta päädyin kahden euron kolikkoon. Muotin tuli olla peilikuva oikeasta rahasta, joten tarvitsin malliksi peilikuvan kahden euron kolikosta. Kolikossa ulospäin työntyvien osien tuli olla muotissa kaiverruksia, mikä oli työn tekemisen kannalta helpottava asia: savilevyn kaivertaminen on huomattavasti helpompaa kun savipalasten lisääminen savilevyyn. \n\nMuotin oltua valmis se poltettiin saviuunissa jonka jälkeen sitä pystyi käyttämään kipsivalujen tekemiseen. Tein muotilla neljä valua, joista toiset onnistuivat paremmin. Kolikot eivät suinkaan olleet heti valmiita valujen jälkeen vaan niitä piti vielä hioa vastaamaan paremmin aitoa kolikkoa. Lopuksi maalasin kolikot akryyliväreillä. \n\nMallina ollut kahden euron kolikko on vanhemman mallin (ennen vuotta 2007 painettu) kolikko, jossa ei näy koko Euroopan karttaa vaan vain vuoteen 1995 mennessä Euroopan Unioniin liittyneet maat.",
+            "description": "views/artwork/kolikko.html",
             "images": [
                 {
                     "small": "images/kolikko/kolikko1-small.JPG",
@@ -436,7 +436,7 @@
                 "size": ["Korkeus 30cm", "Leveys 18cm", "Syvyys 22cm"],
                 "materials": ["Puutikut", "pahvi", "kapalevy", "muoviputki", "kuumaliima"]
             },
-            "description": "Tällä huussipienoismallilla osallistuin muistaakseni johonkin huussiaiheiseen suunnittelukilpailuun. Palkintoja ei tullut, mutta työni onkin aika perinteisen suomalaisen huussin näköinen. Työn kehikkona on vahvaa aaltopahvia, joka on päällystetty kuumaliimalla kiinnitetyillä puutikuilla. Sisäpuolelta huussi on vuorattu kapalevyllä. Työssä on muutama hauska yksityiskohta kuten kapalevyn sisäosasta tehty wc-istuin, rautalangan ympärille kierretty vessapaperi ja muoviputkesta tehty ränni.",
+            "description": "views/artwork/huussi.html",
             "images": [
                 {
                     "small": "images/huussi/huussi1-small.JPG",
@@ -487,7 +487,7 @@
                 "size": ["Korkeus n. 75cm", "Leveys 60cm", "Syvyys 60cm"],
                 "materials": ["Puun oksat", "puutikut", "kuumaliima", "nauha"]
             },
-            "description": "Puumaja ei ole välttämättä hienoin tai monimutkaisin tekemäni työ, mutta työstä otetut kuvat ovat mielestäni onnistuneita. Spottivalojen luomat varjot violetille taustalle luovat kuviin dramaattisuutta. Työ itsessään on melko yksinkertainen: puun oksat on ruuvattu kiinni puiseen pohjalevyyn ja puutikuista tehdyt tasot on kiinnitetty oksiin kuumaliimalla.",
+            "description": "views/artwork/puumaja.html",
             "images": [
                 {
                     "small": "images/puumaja/puumaja1-small.JPG",
@@ -531,7 +531,7 @@
                 "year": ["2005"],
                 "size": ["A2-paperi"]
             },
-            "description": "Aloitin Aku Ankka piirrosten piirtämisen vuoden 2005 syksyllä ja tämä piirros Roopesta on ensimmäinen varsinainen Aku Ankka piirrokseni. Piirroksen piirtäminen kesti reilun viikon ja se on piirretty neljälle A4-kokoiselle paperille. Piirros on ensin hahmoteltu lyijykynällä ja sitten tussattu mustalla tussilla. Lopuksi se on väritetty tietokoneella. \n\nPiirroksessa Roopen takana on vuoden 1875 Yhdysvaltain kymmensenttinen, jonka Don Rosa kertoo olevan Roopen ensilantti. Ensilantin taustalla näkyy poikkileikkaus Roopen rahasäiliöstä: Vasemmalla ylhäällä näkyy Roopen trofeehuone, josta voi tunnistaa Roopen löytämiä aarteita Don Rosan ja Carl Barksin tarinoista. Trofeehuoneen alla on Roopen työhuone ja työhuoneen alla aarrekammioita. Oikealla näkyy rahalaari. \n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
+            "description": "views/artwork/roopeankka.html",
             "images": [
                 {
                     "small": "images/roopeankka/roopeankka-small.JPG",
@@ -549,7 +549,7 @@
                 "year": ["2005"],
                 "size": ["A2-paperi"]
             },
-            "description": "Tässä toisessa Aku Ankka piirroksessani Tupusta, Hupusta ja Lupusta sudenpentuina on viittauksia Don Rosan tarinoihin ”Kadonneen kirjaston vartijat” ja ”K.A.S.V.A.T.U.S.O.P.P.I.A.”. Piirros noudattaa samaa kaavaa Roope piirroksen kanssa, mutta kolikon sijaan Sudenpentujen takana on kadonneen kirjaston logo (väärinpäin oleva sudenpentujen tunnus). Taustalla taas on Roopen rahasäiliökukkulalla aiemmin ollut Ankkalinnake, jonka Jänteet Tupu, Hupu ja Lupu pelastavat liittyessään Sudenpentuihin.",
+            "description": "views/artwork/sudenpennut.html",
             "images": [
                 {
                     "small": "images/sudenpennut/sudenpennut-small.JPG",
@@ -567,7 +567,7 @@
                 "year": ["2006"],
                 "size": ["A2-paperi"]
             },
-            "description": "Hannu Hanhi piirroksessa Hannun takana ei enää ole ympyrän muotoinen esine kuten Roope ja Sudenpennut piirroksissa, vaan mikäs muukaan kuin onnensymboli neliapila. Taustalla taas on Mummo Ankan lato Don Rosan tarinasta ”Kolmoistikliaisen merkki”, jossa Hannusta tulee epäonninen syntymäpäiviensä ajaksi.\n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
+            "description": "views/artwork/hannuhanhi.html",
             "images": [
                 {
                     "small": "images/hannuhanhi/hannuhanhi-small.JPG",
@@ -585,7 +585,7 @@
                 "year": ["2006"],
                 "size": ["A2-paperi"]
             },
-            "description": "Neljäs hahmo piirrokseni on Roope Ankan pahimmasta kilpailijasta Kulta-Into Piistä. Tässä piirroksessa hahmon takana ei ole enää mitään esinettä tai logoa (Roope piirroksessa ensilantti, Sudenpennut piirroksessa kadonneen kirjaston tunnus ja Hannu piirroksessa neliapila), vaan tausta näkyy vain Kulta-Into Piin rahasäiliö. ",
+            "description": "views/artwork/kultaintopii.html",
             "images": [
                 {
                     "small": "images/kultaintopii/kultaintopii-small.JPG",
@@ -603,7 +603,7 @@
                 "year": ["2009"],
                 "size": ["A3-paperi"]
             },
-            "description": "Toisin kuin muut isot Aku Ankka piirrokset tämä piirros Tupusta, Hupusta ja Lupusta on piirretty vain kahdelle A4- kokoiselle paperille. Piirroksessa Tupu, Hupu ja Lupu kiillottavat kolikoita Roope Ankan rahasäiliössä ja toisin kuin Akun mielestä, ankanpoikien mielestä kolikoiden kiillotus on hauskaa puuhaa sillä he voivat samalla rakentaa kolikkolinnoja. \n\nTarkempi katsoja saattaa löytää piirroksesta nimikirjaimeni.",
+            "description": "views/artwork/tupuhupulupu.html",
             "images": [
                 {
                     "small": "images/tupuhupulupu/tupuhupulupu-small.JPG",
@@ -621,7 +621,7 @@
                 "year": ["2007"],
                 "size": ["A2-paperi"]
             },
-            "description": "Tämä piirros perustuu Carl Barksin tarinaa ”Juovikas rubiini”. Don Rosa piirsi useita niin sanottuja pin-up-piirroksia Carl Barksin tarinoista, mutta tarina juovikkaasta rubiinista ei kuulu niihin, joten päätin piirtää tarinasta vastaavan. Tosin minun piirrokseni, toisin kuin useimmat Rosan pin-up-piirroksista, on vaaka suuntainen. \n\nPiirroksessa on kuvattu tarinan tärkeimmät kohdat: sukellus veneessä olevat Ankat pelastautuvat jättiläismeduusalta syöttämällä sille karamelleja, Rippan Taron kuningas vaihtaa juovikkaan rubiinin karamelleihin ja Karhukopla yrittää varastaa rubiinin Roopelta.",
+            "description": "views/artwork/juovikasrubiini.html",
             "images": [
                 {
                     "small": "images/juovikasrubiini/juovikasrubiini-small.JPG",
@@ -639,7 +639,7 @@
                 "year": ["2015"],
                 "size": ["22 x 10 cm"]
             },
-            "description": "Tämä piirroksen tai tarkemmin sanottuna syntymäpäiväkortin piirsin isälleni hänen 50-vuotissyntymäpäiväkseen. Kymmenen vuoden ajan olen piirtänyt isälleni ja äidilleni Aku Ankka aiheisia syntymäpäivä- ja isän/äitienpäiväkortteja ja tämä kortti lienee niistä hienoin. Piirroksen mallina on ollut Yhdysvaltojen vuoden 1929 50 dollarin seteli. Kortista pystyy päättelemään isäni syntymäpäivän.",
+            "description": "views/artwork/50vuotta.html",
             "images": [
                 {
                     "small": "images/50vuotta/50vuotta-small.JPG",
@@ -657,7 +657,7 @@
                 "year": ["2006"],
                 "size": ["A5-paperi"]
             },
-            "description": "Tarkoituksenani ei aluksi ollut piirtää tällaista piirrosta. Olin vain aluksi piirtänyt muutamia harjoituspiirroksia Akusta eri ilmeillä. Piirroksesta pystyykin huomaamaan mitkä viisi naamaa piirsin ensimmäisenä. Myöhemmin ajattelin, että olisi hauskaa piirtääkin koko paperi täyteen Akun naamoja. \n\nTästä piirroksesta tarkempi katsoja saattaa löytää sekä etunimeni että DUCK omistuksen eli Dedicated to Unca Carl AND Keno.",
+            "description": "views/artwork/akunaamat.html",
             "images": [
                 {
                     "small": "images/akunaamat/akunaamat-small.JPG",
@@ -675,7 +675,7 @@
                 "year": ["2005"],
                 "size": ["A3-paperi"]
             },
-            "description": "Tarina panttipulloista on ensimmäinen (ja ainoa valmistunut) Aku Ankka -sarjakuvani. Minulla oli tapana yläasteella kerätä kavereideni koulussa juomia tyhjiä limupulloja, mistä sain idean tähän tarinaan. Roopehan tunnetusti kerää mitä vain mistä saa rahaa. Näin jälkikäteen katsottuna tarinan piirrokset näyttävät mielestäni melko karkeilta, mutta se onkin piirretty melko pienelle paperille. Seitsemännessä ruudussa näkyvälle Ankkalinnalle epätyypilliselle autolle mallina on ollut äitini tuolloinen punainen kuplavolkkari.",
+            "description": "views/artwork/panttipullot.html",
             "images": [
                 {
                     "small": "images/panttipullot/panttipullot1-small.JPG",
@@ -701,7 +701,7 @@
                 "year": ["2006"],
                 "size": ["11 x 17 cm"]
             },
-            "description": "Ideanani oli luoda täysipelikorttisarja Ankkalinnan hahmoista. Sarja jäi kuitenkin kesken neljän Roope piirroksen jälkeen. Näiden Roope piirrosten aiheina olivat Roopen merkkipaalut Don Rosan sarjoista.",
+            "description": "views/artwork/pelikortit.html",
             "images": [
                 {
                     "small": "images/pelikortit/pelikortit1-small.JPG",
@@ -753,7 +753,7 @@
                 "year": ["2014"],
                 "technologies": ["Flask", "Python", "HTML5", "CSS"]
             },
-            "description": "Olemme aina jalkapallon mm-kisojen aikana pitäneet perheemme sisällä veikkauskilpailun mm-kisojen tuloksista. Perinteisesti veikkaukset ja pistelasku on pidetty paperilla, mutta vuoden 2014 kisoihin päätin tehdä veikkauksesta nettiversion. Veikkauksessa jokaisesta ottelusta saa pisteitä seuraavasti: oikein arvattu kotijoukkueen maalimääri 1 piste, oikein arvattu vierasjoukkueen maalimääri 1 piste, oikein arvattu merkki (1, X, 2) 2 pistettä ja jos kaikki kolme edellä ollutta kohtaa oikein yksi lisäpiste. \n\nSivu on nähtävissä osoitteessa: mmveikkaus.jonivayrynen.fi \n\nRekisteröityminen järjestelmään ei ole enää mahdollista, mutta kirjautuminen onnistuu sähköpostilla ”joni” ja salasanalla ”joni”. Kirjautuminen on pakollista, jotta veikkaus- ja tulossivut ovat nähtävissä. Sivu on hostattu Herokun ilmaispalvelussa, joten sivun latautuminen saattaa kestää hetken.",
+            "description": "views/artwork/mmveikkaus.html",
             "images": [
                 {
                     "small": "images/mmveikkaus/mmveikkaus-small.JPG",
@@ -771,7 +771,7 @@
                 "year": ["2015"],
                 "technologies": ["AngularJS", "HTML5", "CSS"]
             },
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "description": "views/artwork/mycoursesdemo.html",
             "images": [
                 {
                     "small": "images/mycoursesdemo/mycoursesdemo-small.JPG",
@@ -789,12 +789,12 @@
                 "year": ["2015"],
                 "technologies": ["AngularJS", "HTML5", "SASS"]
             },
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+            "description": "views/artwork/jonivayrynen.html",
             "images": [
                 {
-                    "small": "images/mycoursesdemo/mycoursesdemo-small.JPG",
-                    "medium": "images/mycoursesdemo/mycoursesdemo.JPG",
-                    "large": "images/mycoursesdemo/mycoursesdemo-large.JPG",
+                    "small": "images/jonivayrynen/jonivayrynen-small.JPG",
+                    "medium": "images/jonivayrynen/jonivayrynen.JPG",
+                    "large": "images/jonivayrynen/jonivayrynen-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
@@ -806,7 +806,7 @@
             "info": {
                 "year": ["2014"]
             },
-            "description": "Kandidaatintyöni käsittelee ohjelmistotestauksen käytäntöjä ja ongelmia. Työn tavoitteena on luoda niistä tiivis esitys. Työn tulokset perustuvat kuuteen 2000-luvulla tehtyihin kyselytutkimuksiin, joiden tuloksia on tässä työssä koottu yhteen. \n\nTyö käsittelee ohjelmistotestauksen nykytilaa, käytäntöjä ja ongelmia seuraavien aiheiden osalta: testauksen koulutus ja opetus, automatisoitu testaus, testauksen lopettamisen kriteerit, testausryhmien käyttö ja testauksen budjetointi. \n\nOhjelmistotestauskoulutus on suurelta osin ohjelmistoyritysten vastuulla. Yliopistoissa testauskoulutusta tarjotaan liian vähän. Tutkimusten mukaan yrityksistä noin 70 prosenttia tarjoaa työntekijöilleen testauskoulutusta. Yritykset pitävät ohjelmistotestauskoulutuksen tarjoamiselle suurimpana esteenä sen hintaa. Muina esteinä pidetään testauskoulutuksen hintaa ja sopivien testauskurssien puutetta. \n\nAutomatisoituja testejä suorittaa jossain muodossa noin 60–70 prosenttia yrityksistä. Eniten automatisoidaan yksikkö- ja regressiotestejä. Manuaalisia testejä suoritetaan kuitenkin yhä huomattavasti enemmän kuin automatisoituja testejä. Monet yritykset eivät määrittele selkeitä kriteereitä testauksen lopettamiselle. Yrityksistä 30–40 prosenttia ei käytä tähän mitään kriteereitä. Noin viides osa yrityksistä varaa testaukselle jonkun ajan, jonka jälkeen testaus lopetetaan. \n\nItsenäisten testausryhmien käyttö vaihtelee paljon yritysten välillä. Ohjelmistotestaajia on yrityksissä usein huomattavasti vähemmän kuin ohjelmistokehittäjiä. Yritykset käyttävät keskimäärin 30 prosenttia ohjelmistoprojektiensa kokonaisbudjetista testaukseen. Vain noin viides osa yrityksistä pääsee tavoitebudjettiinsa testauksen osalta.",
+            "description": "views/artwork/kandi.html",
             "images": [
                 {
                     "small": "images/kandi/kandi-small.JPG",
