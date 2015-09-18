@@ -69,7 +69,6 @@ a:hover {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  min-height: 100%;
 }
 
 .stop-scroll {
@@ -386,7 +385,7 @@ header {
 
 
 footer {
-  padding: 8px 0;
+  padding: 10px 0;
   background-color: $footer-color;
   -moz-box-shadow:    0px 4px 4px 7px $footer-color;
   -webkit-box-shadow: 0px 4px 4px 7px $footer-color;
@@ -398,20 +397,23 @@ footer {
     padding: 0 10px;
     font-weight: 300;
     color: #eee;
-    height: 30px;
-    position: relative;
+    text-align: center;
 
     .copyright {
-      position: absolute;
       display: inline-block;
-      top: 50%;
-      -ms-transform: translateY(-50%);
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
+      line-height: 30px;
+      float: left;
+      padding-left: 10px;
+    }
+
+    .email {
+      display: inline-block;
+      line-height: 30px;
     }
 
     .social-media {
       float: right;
+      width: 140px;
 
       .social-item {
         width: 32px;
@@ -887,5 +889,31 @@ footer {
 
 }
 
+
+@media only screen and (max-width: 500px) {
+  footer {
+    .footer-container {
+      text-align: center;
+
+      .copyright {
+        display: block;
+        line-height: $lhl;
+        float: none;
+        padding-left: 0;
+      }
+
+      .email {
+        display: block;
+        line-height: $lhl;
+      }
+
+      .social-media {
+        padding-top: 10px;
+        float: none;
+        margin: 0 auto;
+      }
+    }
+  }
+}
 
 
