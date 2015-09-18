@@ -8,7 +8,14 @@
       </a>
 
     </div>
-    <div class="description">{{artwork.description}}</div>
+    <div class="description">
+      {{artwork.description}}
+      <span ng-show="currentPath == '/muut/kandi'">
+        Kandidaatin työni on luettavissa <a target="_blank" class="bold-link" href="/other/Kandi.pdf">tästä.</a>
+      </span>
+      <span ng-show="currentPath == '/muut/mmveikkaus'">Sivu on nähtävissä osoitteessa: <a target="_blank" class="bold-link" href="http://mmveikkaus.jonivayrynen.fi">mmveikkaus.jonivayrynen.fi</a>
+      </span>
+    </div>
 
     <div ng-show="artwork.images.length > 1" class="small-images">
       <div ng-repeat="image in artwork.images" class="small-image-container">

@@ -57,12 +57,20 @@ h4 {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: $text-color;
 }
 
 a:hover {
   color: $header-color;
+}
+
+.bold-link {
+  font-weight: 400;
+}
+
+.bold-link:hover {
+  text-decoration: underline;
 }
 
 .centerer {
@@ -362,14 +370,12 @@ header {
   }
 
   .read-more {
-    font-weight: 400;
     background:transparent url('/images/readmore.png') right 70% no-repeat;
     padding-right: 20px;
   }
 
   .read-more:hover {
     background:transparent url('/images/readmore-hover.png') right 70% no-repeat;
-    text-decoration: underline !important;
   }
 }
 

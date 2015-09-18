@@ -753,7 +753,7 @@
                 "year": ["2014"],
                 "technologies": ["Flask", "Python", "HTML5", "CSS"]
             },
-            "description": "Olemme aina jalkapallon mm-kisojen aikana pitäneet perheemme sisällä veikkauskilpailun mm-kisojen tuloksista. Perinteisesti veikkaukset ja pistelasku on pidetty paperilla, mutta vuoden 2014 kisoihin päätin tehdä veikkauksesta nettiversion. Veikkauksessa jokaisesta ottelusta saa pisteitä seuraavasti: oikein arvattu kotijoukkueen maalimääri 1 piste, oikein arvattu vierasjoukkueen maalimääri 1 piste, oikein arvattu merkki (1, X, 2) 2 pistettä ja jos kaikki kolme edellä ollutta kohtaa oikein yksi lisäpiste. \n\nSivu on nähtävissä osoitteessa: mmveikkaus.jonivayrynen.fi \n\nRekisteröityminen järjestelmään ei ole enää mahdollista, mutta kirjautuminen onnistuu sähköpostilla ”joni” ja salasanalla ”joni”. Kirjautuminen on pakollista, jotta veikkaus- ja tulossivut ovat nähtävissä. Sivu on hostattu Herokun ilmaispalvelussa, joten sivun latautuminen saattaa kestää hetken.",
+            "description": "Olemme aina jalkapallon mm-kisojen aikana pitäneet perheemme sisällä veikkauskilpailun mm-kisojen tuloksista. Perinteisesti veikkaukset ja pistelasku on pidetty paperilla, mutta vuoden 2014 kisoihin päätin tehdä veikkauksesta nettiversion. Veikkauksessa jokaisesta ottelusta saa pisteitä seuraavasti: oikein arvattu kotijoukkueen maalimääri 1 piste, oikein arvattu vierasjoukkueen maalimääri 1 piste, oikein arvattu merkki (1, X, 2) 2 pistettä ja jos kaikki kolme edellä ollutta kohtaa oikein yksi lisäpiste.\n\nRekisteröityminen järjestelmään ei ole enää mahdollista, mutta kirjautuminen onnistuu sähköpostilla ”joni” ja salasanalla ”joni”. Kirjautuminen on pakollista, jotta veikkaus- ja tulossivut ovat nähtävissä. Sivu on hostattu Herokun ilmaispalvelussa, joten sivun latautuminen saattaa kestää hetken.",
             "images": [
                 {
                     "small": "images/mmveikkaus/mmveikkaus-small.JPG",
@@ -792,9 +792,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
             "images": [
                 {
-                    "small": "images/mycoursesdemo/mycoursesdemo-small.JPG",
-                    "medium": "images/mycoursesdemo/mycoursesdemo.JPG",
-                    "large": "images/mycoursesdemo/mycoursesdemo-large.JPG",
+                    "small": "images/jonivayrynen/jonivayrynen-small.JPG",
+                    "medium": "images/jonivayrynen/jonivayrynen.JPG",
+                    "large": "images/jonivayrynen/jonivayrynen-large.JPG",
                     "ratio": "horizontal",
                     "strictratio": "133",
                     "caption": "This is a test caption"
