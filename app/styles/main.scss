@@ -674,7 +674,7 @@ footer {
       display: block;
       padding-left: 0;
       width: calc(100% - 20px);
-      padding: 5px 10px;
+      padding: 5px 10px 20px 10px;
 
       .category-description {
         overflow: hidden;
@@ -685,7 +685,6 @@ footer {
 
       .read-more {
         font-weight: 400;
-        padding-bottom: 25px;
       }
     }
   }
