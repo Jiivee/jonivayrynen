@@ -18,6 +18,7 @@ angular
     'ngTouch',
     'angularSpinner',
     'jonivayrynenApp.directives',
+    'jonivayrynenApp.services',
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -29,11 +30,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainController'
       })
-      .when('/:categoryname', {
+      .when('/:categoryid', {
         templateUrl: 'views/category.html',
         controller: 'CategoryController'
       })
-      .when('/:categoryname/:artworkname', {
+      .when('/:categoryid/:artworkid', {
         templateUrl: 'views/artwork.html',
         controller: 'ArtworkController'
       })

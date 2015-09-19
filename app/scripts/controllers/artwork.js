@@ -1,34 +1,21 @@
 'use strict';
 
 angular.module('jonivayrynenApp')
-  .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService, $location) {
+  .controller('ArtworkController', function ($scope, $http, $routeParams, $document, usSpinnerService, $location, getIndex) {
     var bodyRef = angular.element( $document[0].body );
     bodyRef.removeClass('stop-scroll');
     document.ontouchstart = function(){ return true; };
-    $scope.artworkname = $routeParams.artworkname;
-    $scope.categoryname = $routeParams.categoryname;
+    $scope.artworkid = $routeParams.artworkid;
+    $scope.categoryid = $routeParams.categoryid;
     $http.get('artwork/artwork.json').success(function(data) {
-      $scope.artworks = data;
-      $scope.category = data[$scope.categoryname];
-      $scope.artwork = data[$scope.categoryname][$scope.artworkname];
-      $scope.allImages = data[$scope.categoryname][$scope.artworkname].images;
+      var categoryIndex = getIndex(data, $scope.categoryid);
+      $scope.category = data[categoryIndex];
+      var artworkIndex = getIndex($scope.category.artworks, $scope.artworkid);
+      $scope.artwork = $scope.category.artworks[artworkIndex];
     });
     $scope.currentPath = $location.path();
 
-    $scope.getNameOfCategory = function (nameofcategory) {
-      if (nameofcategory === 'rakennelmat') {
-        return 'Rakennelmat';
-      }
-      else if (nameofcategory === 'akuankkapiirustukset') {
-        return 'Aku Ankka piirustukset';
-      }
-      else if (nameofcategory === 'muut') {
-        return 'Muut työt';
-      }
-      return nameofcategory;
-    };
-
-    $scope.getInfoName =function (value) {
+    $scope.getInfoName = function (value) {
       if (value === 'year') {
         return 'Vuosi:';
       }
@@ -41,6 +28,13 @@ angular.module('jonivayrynenApp')
       else if (value === 'technologies') {
         return 'Tekniikat:';
       }
+    };
+
+    $scope.dontShowThis = function (work) {
+      if (work.id === $scope.artworkid) {
+        return false;
+      }
+      return true;
     };
 
     $scope.imgData = '';

@@ -1,26 +1,15 @@
 'use strict';
 
 angular.module('jonivayrynenApp')
-  .controller('CategoryController', function ($scope, $http, $routeParams, $document) {
+  .controller('CategoryController', function ($scope, $http, $routeParams, $document, getIndex) {
     var bodyRef = angular.element( $document[0].body );
     bodyRef.removeClass('stop-scroll');
     document.ontouchstart = function(){ return true; };
-    $scope.categoryname = $routeParams.categoryname;
-    $http.get('artwork/artwork.json', { headers: { 'Cache-Control' : 'no-cache' } } ).success(function(data) {
-      $scope.artworks = data;
-      $scope.category = data[$scope.categoryname];
-    });
+    $scope.categoryid = $routeParams.categoryid;
 
-    $scope.getNameOfCategory = function (nameofcategory) {
-      if (nameofcategory === 'rakennelmat') {
-        return 'Rakennelmat';
-      }
-      else if (nameofcategory === 'akuankkapiirustukset') {
-        return 'Aku Ankka piirustukset';
-      }
-      else if (nameofcategory === 'muut') {
-        return 'Muut työt';
-      }
-      return nameofcategory;
-    };
+    $http.get('artwork/artwork.json', { headers: { 'Cache-Control' : 'no-cache' } } ).success(function(data) {
+      var categoryIndex = getIndex(data, $scope.categoryid);
+      $scope.category = data[categoryIndex];
+      $scope.artworks = $scope.category.artworks;
+    });
   });

@@ -42,10 +42,10 @@
     </div>
 
     <div class="other-works">
-      <h3>Muut {{getNameOfCategory(categoryname)}}</h3>
-      <div ng-repeat="(key, value) in category" class="sidebar-item">
-        <a href="#/{{categoryname}}/{{key}}"><img class="sidebar-image" ng-src="{{value.images[0].small}}"></a>
-        <a href="#/{{categoryname}}/{{key}}"><div class="work-name">{{value.name}}</div></a>
+      <h3>Muut {{category.name}}</h3>
+      <div ng-repeat="work in category.artworks | filter: dontShowThis" class="sidebar-item">
+        <a ng-href="#/{{category.id}}/{{work.id}}"><img class="sidebar-image" ng-src="{{work.images[0].small}}"></a>
+        <a ng-href="#/{{category.id}}/{{work.id}}"><div class="work-name">{{work.name}}</div></a>
       </div>
     </div>
   </div>
