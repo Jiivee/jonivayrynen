@@ -168,9 +168,14 @@ header {
 
 .top-description {
   width: calc(100% - 30px);
-  padding: 5px 15px 0 15px;
+  padding: 10px 15px 10px 15px;
   background-color: $bar-color;
   box-shadow: 0 0 1px 1px $bar-color;
+
+  .category-description {
+    font-size: 24px;
+    line-height: 1.6em;
+  }
 }
 
 
@@ -328,7 +333,7 @@ header {
   height: 225px;
   //border-bottom: 1px solid $border-color;
   padding: 19px 15px; //20px 0;
-  margin-bottom: 17px;
+  margin-top: 17px;
   background-color: $bar-color;
   box-shadow: 0 0 1px 1px $bar-color;
 
@@ -652,7 +657,11 @@ footer {
   }
 
   h1 {
-    padding-left: 10px;
+    padding-left: 0px;
+  }
+
+  .large-text {
+    font-size: 18px;
   }
 
   .main-content {
@@ -662,7 +671,11 @@ footer {
   }
 
   .top-description {
-    padding: 0;
+    padding: 0 10px 0 10px;
+
+    .category-description {
+      font-size: 20px;
+    }
   }
 
   .row {
@@ -686,7 +699,7 @@ footer {
 
       .category-description {
         overflow: hidden;
-        height: 150px;
+        height: 120px;
         -webkit-text-fill-color: black;
         background-image: none;
       }

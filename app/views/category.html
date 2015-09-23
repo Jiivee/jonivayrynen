@@ -1,6 +1,7 @@
 <div class="">
   <div class="top-description">
     <h1>{{category.name}}</h1>
+    <div class="category-description">{{category.description}}</div>
   </div>
   <div ng-repeat="artwork in artworks" class="row">
     <a ng-href="#/{{categoryid}}/{{artwork.id}}">
