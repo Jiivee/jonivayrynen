@@ -2,7 +2,7 @@
     {
         "id": "rakennelmat",
         "name": "Rakennelmat",
-        "description": "Kävin 12 vuoden ajan Espoon kuvataidekoulua, joista viimeiset X vuotta ympäristö- ja arkkitehtuurityöpajassa. Työpajassa käytin mm. ArchiCAD suunnitteluohjelmistoa, mutta pääasiassa rakensin erilaisia pienoismalleja. Aku Ankka fanina monet tekemäni työt ovatkin lähtöisin Ankkalinnasta, mutta joukkoon kuuluu myös pari kuuluisaa nähtävyyttä. Tämä osio ei sisällä kaikkia ympäristö- ja arkkitehtuurityöpajassa tekemiäni teoksi, vaan mielestäni parhaimmat näistä.",
+        "description": "Kävin 12 vuoden ajan Espoon kuvataidekoulua, joista viimeiset 5 vuotta ympäristö- ja arkkitehtuurityöpajassa. Työpajassa käytin mm. ArchiCAD suunnitteluohjelmistoa, mutta pääasiassa rakensin erilaisia pienoismalleja. Aku Ankka fanina monet tekemäni työt ovatkin lähtöisin Ankkalinnasta, mutta joukkoon kuuluu myös pari kuuluisaa nähtävyyttä. Tämä osio ei sisällä kaikkia ympäristö- ja arkkitehtuurityöpajassa tekemiäni teoksi, vaan mielestäni parhaimmat näistä.",
         "artworks": [
             {
                 "id": "rahasailio",
@@ -541,7 +541,7 @@
     {
         "id": "akuankkapiirustukset",
         "name": "Aku Ankka piirustukset",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis.",
+        "description": "Minulle on tullut Aku Ankka –lehti kolmevuotiaasta lähtien. Suuri Aku Ankka fani minusta tuli noin 13-vuotiaana Don Rosan tarinoiden ansiosta. Don Rosan tarinoissa minua viehätti käsikirjoitusten hyvyys ja piirrosten insinöörimäinen tarkkuus. Niinpä vuonna 2005 päätin alkaa itse piirtää ankkoja pyrkien jäljittelemään mahdollisimman paljon Rosan tyyliä. Piirroksissani on Rosalta kopioidun tyylin lisäksi viittauksia hänen sekä toisen suosikki piirtäjäni Carl Barksin tarinoihin.",
         "artworks": [
             {
                 "id": "roopeankka",
