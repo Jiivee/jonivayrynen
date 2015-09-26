@@ -1,0 +1,91 @@
+@import "variables";
+
+footer {
+  padding: 10px 0;
+  background-color: $footer-color;
+  -moz-box-shadow:    0px 4px 4px 7px $footer-color;
+  -webkit-box-shadow: 0px 4px 4px 7px $footer-color;
+  box-shadow:         0px 4px 4px 7px $footer-color;
+  width: 100%;
+  display: inline-block;
+
+  .footer-container {
+    padding: 0 10px;
+    font-weight: 300;
+    color: #eee;
+    text-align: center;
+
+    .copyright {
+      display: inline-block;
+      line-height: 30px;
+      float: left;
+      padding-left: 10px;
+    }
+
+    .email {
+      display: inline-block;
+      line-height: 30px;
+    }
+
+    .social-media {
+      float: right;
+      width: 140px;
+
+      .social-item {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        padding-right: 7px;
+      }
+
+      .twitter {
+        background:transparent url('/images/twitter.png') center top no-repeat;
+      }
+      .twitter:hover {
+        background-image: url('/images/twitter-hover.png');
+      }
+
+      .github {
+        background:transparent url('/images/github.png') center top no-repeat;
+      }
+      .github:hover {
+        background-image: url('/images/github-hover.png');
+      }
+
+      .linkedin {
+        background:transparent url('/images/linkedin.png') center top no-repeat;
+        background-size: 40.5px 32px;
+        width: 40.5px
+      }
+      .linkedin:hover {
+        background-image: url('/images/linkedin-hover.png');
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    .footer-container {
+      text-align: center;
+
+      .copyright {
+        display: block;
+        line-height: $lhl;
+        float: none;
+        padding-left: 0;
+      }
+
+      .email {
+        display: block;
+        line-height: $lhl;
+      }
+
+      .social-media {
+        padding-top: 10px;
+        float: none;
+        margin: 0 auto;
+      }
+    }
+  }
+}

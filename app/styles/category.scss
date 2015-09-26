@@ -1,0 +1,127 @@
+@import "variables";
+
+.top-description {
+  width: calc(100% - 30px);
+  padding: 10px 15px 10px 15px;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
+
+  .category-description {
+    font-size: 24px;
+    line-height: 1.6em;
+  }
+}
+
+.row {
+  display: block;
+  width: calc(100% - 30px);
+  height: 225px;
+  //border-bottom: 1px solid $border-color;
+  padding: 19px 15px; //20px 0;
+  margin-top: 17px;
+  background-color: $bar-color;
+  box-shadow: 0 0 1px 1px $bar-color;
+
+  .image-part {
+    width: 300px;
+    height: 225px;
+    display: inline-block;
+    float: left;
+
+    .row-image {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+  }
+
+  .text-part {
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+    width: calc(100% - 320px);
+  }
+
+  .category-description {
+    font-size: 22px;
+    line-height: $lhl;
+    overflow: hidden;
+    height: 150px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(black, 1),
+      rgba(black, 1) $lhl,
+      rgba(black, 1) $lhl,
+      rgba(black, 0.8) $lhl*2,
+      rgba(black, 0.8) $lhl*2,
+      rgba(black, 0.6) $lhl*3,
+      rgba(black, 0.4) $lhl*3,
+      rgba(black, 0.2));
+  }
+
+  .read-more {
+    background:transparent url('/images/readmore.png') right 70% no-repeat;
+    padding-right: 20px;
+  }
+
+  .read-more:hover {
+    background:transparent url('/images/readmore-hover.png') right 70% no-repeat;
+  }
+}
+
+.row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-description {
+    padding: 0 10px 0 10px;
+
+    .category-description {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  }
+
+  .row {
+    border-bottom: none;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+
+    .image-part {
+      width: 100%;
+      height: 100%;
+      display: block;
+      padding-top: 10px;
+
+      .row-image {
+        width: 100%;
+      }
+    }
+
+    .text-part {
+      display: block;
+      padding-left: 0;
+      width: calc(100% - 20px);
+      padding: 5px 10px 20px 10px;
+
+      .category-description {
+        font-size: 18px;
+        line-height: 1.5;
+        overflow: hidden;
+        height: 115px;
+        -webkit-text-fill-color: black;
+        background-image: none;
+      }
+
+      .read-more {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
