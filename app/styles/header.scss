@@ -1,0 +1,145 @@
+/* Header */
+@import "variables";
+
+header {
+  padding: 0;
+  background-color: $header-color;
+  -moz-box-shadow:    0px 0px 4px 3px $header-color;
+  -webkit-box-shadow: 0px 0px 4px 3px $header-color;
+  box-shadow:         0px 0px 4px 3px $header-color;
+  position: relative;
+
+  .header-container {
+    height: 52px;
+    padding: 0 15px;
+    font-size: 24px;
+    font-weight: 400;
+    -ms-transform: uppercase;
+    -webkit-transform: uppercase;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #eee !important;
+    position: relative;
+
+    .logo-name {
+      display: inline-block;
+      height: 52px;
+      position: absolute;
+      z-index: 101;
+
+      .site-logo {
+        height: 36px;
+        margin-bottom: -5px;
+        padding: 0 5px 0 7px;
+      }
+
+      .site-name {
+        font-size: 11px;
+        color: #fff;
+        margin-top: -3px;
+      }
+    }
+
+
+    nav {
+      display: inline-block;
+      height: 52px;
+      position: absolute;
+      padding-left: 70px;
+      line-height: 1.4;
+      z-index: 100;
+
+      .menu-container {
+        display: none;
+      }
+
+      ul {
+        padding: 10px;
+        margin: 0 auto;
+
+
+        li {
+          padding-right: 10px;
+          display: inline;
+          float: left;
+          color: #eee;
+          cursor: pointer;
+        }
+
+        li:last-child {
+          padding-right: 0;
+        }
+
+        li:hover {
+            color: #bbb;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  header {
+    .header-container {
+      nav {
+          border-bottom: 0;
+          width: 100%;
+          padding-left: 0;
+          position: relative;
+
+        ul {
+          display: none;
+          height: auto;
+        }
+
+        .menu-container {
+          display: inline-block;
+          float: right;
+          padding-top: 5px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          cursor: pointer;
+
+          .menu-text {
+            display: inline-block;
+            font-size: 16px;
+          }
+
+          .menu-icon {
+            display: inline-block;
+            width: 27px;
+            height: 30px;
+            line-height: 26px;
+            vertical-align: middle;
+          }
+        }
+
+        .showbar {
+          display: block;
+          padding: 60px 0 0 0;
+        }
+
+        .barlines {
+          float: none;
+          display: block;
+          padding-left: 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    height: 180px;
+    width: 100%;
+    background-color: $base-color;
+    -moz-box-shadow:    0px 0px 4px 3px $base-color;
+    -webkit-box-shadow: 0px 0px 4px 3px $base-color;
+    box-shadow:         0px 0px 4px 3px $base-color;
+  }
+}
+
+
