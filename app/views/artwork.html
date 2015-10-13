@@ -9,12 +9,19 @@
 
     </div>
     <div class="description">
-      {{artwork.description}}
-      <span ng-show="currentPath == '/muut/kandi'">
-        Kandidaatin työni on luettavissa <a target="_blank" class="bold-link" href="/other/Kandi.pdf">tästä.</a>
-      </span>
-      <span ng-show="currentPath == '/muut/mmveikkaus'">Sivu on nähtävissä osoitteessa: <a target="_blank" class="bold-link" href="http://mmveikkaus.jonivayrynen.fi">mmveikkaus.jonivayrynen.fi</a>
-      </span>
+      <span class="text">{{artwork.description}}</span>
+      <p ng-show="currentPath == '/muut/kandi'">
+        Kandidaatin työni on luettavissa <a target="_blank" class="bold-link link-wrap" href="/other/Kandi.pdf">tästä.</a>
+      </p>
+      <p ng-show="currentPath == '/muut/mmveikkaus'">
+        Sivu on nähtävissä osoitteessa: <a target="_blank" class="bold-link link-wrap" href="http://mmveikkaus.jonivayrynen.fi">mmveikkaus.jonivayrynen.fi</a>
+      </p>
+      <p ng-show="currentPath == '/muut/mycoursesdemo'">
+        Tekemäni hakudemo on nähtävissä osoitteessa (sivun lataus voi kestää hetken): <a target="_blank" class="bold-link link-wrap" href="http://mycoursesdemo.jonivayrynen.fi/">http://mycoursesdemo.jonivayrynen.fi/</a>
+      </p>
+      <p ng-show="currentPath == '/muut/mycoursesdemo'">
+        MyCourses:n nykyinen hakusivu nähtävissä osoitteessa: <a target="_blank" class="bold-link link-wrap" href="https://mycourses.aalto.fi/course/search.php?search=intera">https://mycourses.aalto.fi/course/search.php?search=intera</a>
+      </p>
     </div>
 
     <div ng-show="artwork.images.length > 1" class="small-images">

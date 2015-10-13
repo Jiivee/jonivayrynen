@@ -25,10 +25,17 @@
       font-size: 18px;
       font-weight: 300;
       line-height: 1.6;
-      white-space: pre-line;
+
+      .text {
+        white-space: pre-line;
+      }
 
       .kandi-link {
         font-weight: 400;
+      }
+
+      .link-wrap {
+        word-wrap: break-word;
       }
     }
 
