@@ -778,7 +778,7 @@
     {
         "id": "muut",
         "name": "Muut työt",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis.",
+        "description": "Tämä osio sisältää omia ohjelmointiprojektejani, yliopistoprojektejani sekä kandidaatin työni.",
         "artworks": [
             {
                 "id": "mmveikkaus",
@@ -806,7 +806,7 @@
                     "year": ["2015"],
                     "technologies": ["AngularJS", "HTML5", "CSS"]
                 },
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+                "description": "Tein tämän sivun keväällä 2015 Interaction Design and Evaluation –kurssilla. Kurssilla teimme viiden hengen ryhmissä käytettävyysarviointeja ja -testejä Aalto yliopiston uudelle opiskelijaportaalille nimeltä MyCourse. Arviointien ja testien perusteella jokaisen piti valita jokin MyCourse:n ominaisuus, johon piti esittää parannuksia. Valitsin itse sivuston haun, joka monien mielestä vaati parannuksia. \n\nTekemäni demo yrittää vastata moniin silloisessa ja vielä nykyisessäkin haussa oleviin puutteisiin: Kurssin nimen ja koodin lisäksi tuloksissa näytetään heti kurssin opintopistemäärä ja opetusperiodit. Käyttäjän on helpompi ymmärtää opetuksen ajankohta opetusperioditiedosta kuin päivämääristä. Hakutuloksia pystyy myös järjestämään kurssikoodin, kurssin nimen, kurssin periodin ja opintopistemäärän perusteella. Kurssien suodatus oli myös toivottu ominaisuus ja tekemässäni demossa hakutuloksia pystyy periodin, opintopisteiden ja opetuksen kielen mukaan.\n\nValitettavasti kaikkia näitä ominaisuuksia ole kuulemma mahdollista saada MyCourse:en järjestelmän teknisen toteutuksen takia.",
                 "images": [
                     {
                         "small": "images/mycoursesdemo/mycoursesdemo-small.JPG",
