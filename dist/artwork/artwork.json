@@ -10,7 +10,7 @@
                 "info": {
                     "year": ["2009"],
                     "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
-                    "materials": [""]
+                    "materials": ["Puulevy", "Puulauta", "Spraymaali", "Kapalevy", "akryylimaali"]
                 },
                 "description": "Tämä työ on kuvataidekoulun päättötyöni. Työn inspiraation lähteenä on Don Rosan tarinassa ”Talon kokoinen vastustaja” olevat Roope Ankan rahasäiliön pohjapiirustukset. Piirustusten mukaisen rahasäiliön sivun pituus on 40 metriä ja työssäni vastaava pituus on yksi metri, joten rahasäiliöni on 1:40 pienoismalli ”oikeasta” rahasäiliöstä.\n\nTyön suuri koko aiheutti haasteita suunnittelulle ja toteutukselle. Koska halusin noudattaa tarkasti Rosan piirustuksia, tuli rahasäiliön seinän paksuuden olla 25 millimetriä. Jo yksi neliömetrin kokoinen 25 millimetriä paksu vaneri- tai muu puupala olisi ollut hyvin painava ja kallis. Niinpä päädyin kennorakenteeseen, jossa kahden ohuen puulevyn väliin laitettiin puusuikaleita noin 20 senttimetrin välein. Rahasäiliön seinät on maalattu spraymaaleilla.\n\nRahasäiliön katon pystyy nostamaan pois, jolloin aukeaa näkymä rahalaariin. Kun katto on nostettu pois, pystyy myös rahasäiliön etuseinän nostamaan pois. Näin pystyy tarkastelemaan rahasäiliön etuosassa olevia kerroksia. Kerrokset taas pystyy vetämään ulos laatikoiden tapaan.\n\nRahasäiliön kerrokset on tehty kapalevystä ja maalattu akryyliväreillä. Rahasäiliössä on 13 kerrosta, joista viisi on identtisiä toimistokerroksia. Kiireellisen aikataulun takia ehdin tekemään vain yhden toimistokerroksen. Kaikki muut kerrokset löytyvät työstäni. Ajatuksenani oli aluksi tehdä kerroksiin myös huonekaluja, mutta ajan puutteen takia ainoat kerrosten yksityiskohdat ovat portaat ja avattavissa olevat ovet.",
                 "images": [
@@ -542,121 +542,105 @@
                 "info": {
                     "year": ["2009"],
                     "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
-                    "materials": [""]
+                    "materials": ["Puulevy", "Puulauta", "Spraymaali", "Kapalevy", "akryylimaali"]
                 },
                 "description": "Kuvia rahasäiliön rakennusvaiheista.",
                 "images": [
                     {
-                        "small": "images/rahasailio/rahasailio1-small.JPG",
-                        "medium": "images/rahasailio/rahasailio1.JPG",
-                        "large": "images/rahasailio/rahasailio1-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe1-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe1.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe1-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "133",
-                        "caption": ""
+                        "caption": "Maalausta ja muutamaa yksityiskohtaa vaille valmis."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio2-small.JPG",
-                        "medium": "images/rahasailio/rahasailio2.JPG",
-                        "large": "images/rahasailio/rahasailio2-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe2-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe2.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe2-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Kokeilupala seinien kennorakenteen suunnittelua varten."
+                    },
+                    {
+                        "small": "images/rahasailiovaiheet/rakennusvaihe3-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe3.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe3-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Rahasäiliön sisäseinää rakentamassa."
+                    },
+                    {
+                        "small": "images/rahasailiovaiheet/rakennusvaihe4-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe4.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe4-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Katto rakennusvaiheessa."
+                    },
+                    {
+                        "small": "images/rahasailiovaiheet/rakennusvaihe5-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe5.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe5-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Dollarimerkin sahaus pistosahalla."
+                    },
+                    {
+                        "small": "images/rahasailiovaiheet/rakennusvaihe6-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe6.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe6-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Pohja rakennusvaiheessa."
+                    },
+                    {
+                        "small": "images/rahasailiovaiheet/rakennusvaihe7-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe7.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe7-large.JPG",
                         "ratio": "vertical",
                         "strictratio": "075",
-                        "caption": ""
+                        "caption": "Rahasäiliön koko tulee hyvin näkyviin tästä kuvasta."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio3-small.JPG",
-                        "medium": "images/rahasailio/rahasailio3.JPG",
-                        "large": "images/rahasailio/rahasailio3-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": ""
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio4-small.JPG",
-                        "medium": "images/rahasailio/rahasailio4.JPG",
-                        "large": "images/rahasailio/rahasailio4-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": ""
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio5-small.JPG",
-                        "medium": "images/rahasailio/rahasailio5.JPG",
-                        "large": "images/rahasailio/rahasailio5-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": "Rahalaarin portaat."
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio6-small.JPG",
-                        "medium": "images/rahasailio/rahasailio6.JPG",
-                        "large": "images/rahasailio/rahasailio6-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": "Toinen kuvakulma rahalaarista."
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio7-small.JPG",
-                        "medium": "images/rahasailio/rahasailio7.JPG",
-                        "large": "images/rahasailio/rahasailio7-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe8-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe8.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe8-large.JPG",
                         "ratio": "vertical",
                         "strictratio": "075",
-                        "caption": "Näkymä seinien rakenteesta."
+                        "caption": "Seiniä sprayjaamassa."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio8-small.JPG",
-                        "medium": "images/rahasailio/rahasailio8.JPG",
-                        "large": "images/rahasailio/rahasailio8-large.JPG",
-                        "ratio": "vertical",
-                        "strictratio": "075",
-                        "caption": "Kuvan vasemman puolinen seinä on ylös nostettavissa oleva rahasäiliön etuseinä."
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio9-small.JPG",
-                        "medium": "images/rahasailio/rahasailio9.JPG",
-                        "large": "images/rahasailio/rahasailio9-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe9-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe9.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe9-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "133",
-                        "caption": "Rahasäiliö katto ja etuseinä pois nostettuna. Kolme kerrosta paikoillaan."
+                        "caption": "Kerrosten seinien maalaus."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio10-small.JPG",
-                        "medium": "images/rahasailio/rahasailio10.JPG",
-                        "large": "images/rahasailio/rahasailio10-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe10-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe10.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe10-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "133",
-                        "caption": "Kerrokset ovat vedettävissä ulos laatikoiden tapaan."
+                        "caption": "Seinät kuivumassa rautalankaviritysten päällä."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio11-small.JPG",
-                        "medium": "images/rahasailio/rahasailio11.JPG",
-                        "large": "images/rahasailio/rahasailio11-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe11-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe11.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe11-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "133",
-                        "caption": "Kaikki tekemäni kerrokset."
+                        "caption": "Kerrosten seinät liimausta odottamassa."
                     },
                     {
-                        "small": "images/rahasailio/rahasailio12-small.JPG",
-                        "medium": "images/rahasailio/rahasailio12.JPG",
-                        "large": "images/rahasailio/rahasailio12-large.JPG",
+                        "small": "images/rahasailiovaiheet/rakennusvaihe12-small.JPG",
+                        "medium": "images/rahasailiovaiheet/rakennusvaihe12.JPG",
+                        "large": "images/rahasailiovaiheet/rakennusvaihe12-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "133",
-                        "caption": "Kaikki kerrokset toisesta kuvakulmasta."
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio13-small.JPG",
-                        "medium": "images/rahasailio/rahasailio13.JPG",
-                        "large": "images/rahasailio/rahasailio13-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": "Kerros 3, jalokivivarastot."
-                    },
-                    {
-                        "small": "images/rahasailio/rahasailio14-small.JPG",
-                        "medium": "images/rahasailio/rahasailio14.JPG",
-                        "large": "images/rahasailio/rahasailio14-large.JPG",
-                        "ratio": "horizontal",
-                        "strictratio": "133",
-                        "caption": ""
+                        "caption": "Seinät kuivumassa liimauksen jälkeen."
                     }
                 ]
             }
