@@ -3,7 +3,7 @@
     <h1>{{category.name}}</h1>
     <div class="category-description">{{category.description}}</div>
   </div>
-  <div ng-repeat="artwork in artworks" class="row">
+  <div ng-repeat="artwork in artworks | filter: skipConstructionPhase" class="row">
     <a ng-href="#/{{categoryid}}/{{artwork.id}}">
       <div class="image-part">
         <img class="row-image" ng-src="{{artwork.images[0].medium}}">

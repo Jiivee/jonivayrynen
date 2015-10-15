@@ -31,7 +31,7 @@ angular.module('jonivayrynenApp')
     };
 
     $scope.dontShowThis = function (work) {
-      if (work.id === $scope.artworkid) {
+      if (work.id === $scope.artworkid || work.id === 'rahasailiovaiheet') {
         return false;
       }
       return true;

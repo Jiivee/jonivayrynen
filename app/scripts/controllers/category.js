@@ -12,4 +12,11 @@ angular.module('jonivayrynenApp')
       $scope.category = data[categoryIndex];
       $scope.artworks = $scope.category.artworks;
     });
+
+    $scope.skipConstructionPhase = function (work) {
+      if (work.id === 'rahasailiovaiheet') {
+        return false;
+      }
+      return true;
+    };
   });

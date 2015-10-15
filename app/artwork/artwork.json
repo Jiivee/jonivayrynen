@@ -12,7 +12,7 @@
                     "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
                     "materials": [""]
                 },
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor felis elementum dolor tincidunt, at scelerisque ex pretium. Aliquam bibendum molestie mi, ut tempor lectus tincidunt ut. Cras accumsan nisi id ante interdum, tristique semper ipsum scelerisque. Sed malesuada nunc eu enim euismod, blandit volutpat diam pretium. Pellentesque ut commodo ante. Praesent a ipsum quis nisl convallis auctor eget in urna. Sed tempor velit risus. In sit amet pulvinar ex, ut feugiat ante. Nulla bibendum quam quis elit vulputate sagittis. Quisque fringilla, quam nec porttitor fermentum, erat mi tempus ante, at suscipit arcu magna et orci. Suspendisse dui lorem, placerat vitae elit id, feugiat lobortis magna. Donec id mattis nibh. Aliquam posuere arcu ut felis condimentum, eget accumsan est dictum. Fusce ornare neque vestibulum ligula vulputate aliquet. Pellentesque pharetra diam vitae massa consectetur, id ornare dolor consectetur. Integer ornare neque vitae enim tincidunt interdum.",
+                "description": "Tämä työ on kuvataidekoulun päättötyöni. Työn inspiraation lähteenä on Don Rosan tarinassa ”Talon kokoinen vastustaja” olevat Roope Ankan rahasäiliön pohjapiirustukset. Piirustusten mukaisen rahasäiliön sivun pituus on 40 metriä ja työssäni vastaava pituus on yksi metri, joten rahasäiliöni on 1:40 pienoismalli ”oikeasta” rahasäiliöstä.\n\nTyön suuri koko aiheutti haasteita suunnittelulle ja toteutukselle. Koska halusin noudattaa tarkasti Rosan piirustuksia, tuli rahasäiliön seinän paksuuden olla 25 millimetriä. Jo yksi neliömetrin kokoinen 25 millimetriä paksu vaneri- tai muu puupala olisi ollut hyvin painava ja kallis. Niinpä päädyin kennorakenteeseen, jossa kahden ohuen puulevyn väliin laitettiin puusuikaleita noin 20 senttimetrin välein. Rahasäiliön seinät on maalattu spraymaaleilla.\n\nRahasäiliön katon pystyy nostamaan pois, jolloin aukeaa näkymä rahalaariin. Kun katto on nostettu pois, pystyy myös rahasäiliön etuseinän nostamaan pois. Näin pystyy tarkastelemaan rahasäiliön etuosassa olevia kerroksia. Kerrokset taas pystyy vetämään ulos laatikoiden tapaan.\n\nRahasäiliön kerrokset on tehty kapalevystä ja maalattu akryyliväreillä. Rahasäiliössä on 13 kerrosta, joista viisi on identtisiä toimistokerroksia. Kiireellisen aikataulun takia ehdin tekemään vain yhden toimistokerroksen. Kaikki muut kerrokset löytyvät työstäni. Ajatuksenani oli aluksi tehdä kerroksiin myös huonekaluja, mutta ajan puutteen takia ainoat kerrosten yksityiskohdat ovat portaat ja avattavissa olevat ovet.",
                 "images": [
                     {
                         "small": "images/rahasailio/rahasailio1-small.JPG",
@@ -532,6 +532,130 @@
                         "large": "images/puumaja/puumaja4-large.JPG",
                         "ratio": "horizontal",
                         "strictratio": "075",
+                        "caption": ""
+                    }
+                ]
+            },
+            {
+                "id": "rahasailiovaiheet",
+                "name": "Rahasäiliön rakennusvaiheet",
+                "info": {
+                    "year": ["2009"],
+                    "size": ["Korkeus 110cm", "Leveys 100cm", "Syvyys 100cm"],
+                    "materials": [""]
+                },
+                "description": "Kuvia rahasäiliön rakennusvaiheista.",
+                "images": [
+                    {
+                        "small": "images/rahasailio/rahasailio1-small.JPG",
+                        "medium": "images/rahasailio/rahasailio1.JPG",
+                        "large": "images/rahasailio/rahasailio1-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": ""
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio2-small.JPG",
+                        "medium": "images/rahasailio/rahasailio2.JPG",
+                        "large": "images/rahasailio/rahasailio2-large.JPG",
+                        "ratio": "vertical",
+                        "strictratio": "075",
+                        "caption": ""
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio3-small.JPG",
+                        "medium": "images/rahasailio/rahasailio3.JPG",
+                        "large": "images/rahasailio/rahasailio3-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": ""
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio4-small.JPG",
+                        "medium": "images/rahasailio/rahasailio4.JPG",
+                        "large": "images/rahasailio/rahasailio4-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": ""
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio5-small.JPG",
+                        "medium": "images/rahasailio/rahasailio5.JPG",
+                        "large": "images/rahasailio/rahasailio5-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Rahalaarin portaat."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio6-small.JPG",
+                        "medium": "images/rahasailio/rahasailio6.JPG",
+                        "large": "images/rahasailio/rahasailio6-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Toinen kuvakulma rahalaarista."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio7-small.JPG",
+                        "medium": "images/rahasailio/rahasailio7.JPG",
+                        "large": "images/rahasailio/rahasailio7-large.JPG",
+                        "ratio": "vertical",
+                        "strictratio": "075",
+                        "caption": "Näkymä seinien rakenteesta."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio8-small.JPG",
+                        "medium": "images/rahasailio/rahasailio8.JPG",
+                        "large": "images/rahasailio/rahasailio8-large.JPG",
+                        "ratio": "vertical",
+                        "strictratio": "075",
+                        "caption": "Kuvan vasemman puolinen seinä on ylös nostettavissa oleva rahasäiliön etuseinä."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio9-small.JPG",
+                        "medium": "images/rahasailio/rahasailio9.JPG",
+                        "large": "images/rahasailio/rahasailio9-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Rahasäiliö katto ja etuseinä pois nostettuna. Kolme kerrosta paikoillaan."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio10-small.JPG",
+                        "medium": "images/rahasailio/rahasailio10.JPG",
+                        "large": "images/rahasailio/rahasailio10-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Kerrokset ovat vedettävissä ulos laatikoiden tapaan."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio11-small.JPG",
+                        "medium": "images/rahasailio/rahasailio11.JPG",
+                        "large": "images/rahasailio/rahasailio11-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Kaikki tekemäni kerrokset."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio12-small.JPG",
+                        "medium": "images/rahasailio/rahasailio12.JPG",
+                        "large": "images/rahasailio/rahasailio12-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Kaikki kerrokset toisesta kuvakulmasta."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio13-small.JPG",
+                        "medium": "images/rahasailio/rahasailio13.JPG",
+                        "large": "images/rahasailio/rahasailio13-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
+                        "caption": "Kerros 3, jalokivivarastot."
+                    },
+                    {
+                        "small": "images/rahasailio/rahasailio14-small.JPG",
+                        "medium": "images/rahasailio/rahasailio14.JPG",
+                        "large": "images/rahasailio/rahasailio14-large.JPG",
+                        "ratio": "horizontal",
+                        "strictratio": "133",
                         "caption": ""
                     }
                 ]
